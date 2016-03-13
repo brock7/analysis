@@ -1,0 +1,13 @@
+Game\Config\game.cfg
+WindowMode=1
+Width=800
+Height=600
+
+main thread
+8068	22.88	3,028,195,587	League of Legends.exe!?Init@System@GFx@Scaleform@@SAXPAVSysAllocBase@3@@Z+0x26663c2
+
+
+commandline
+L"\\Game\\League of Legends.exe\x0000\"Game\\League of Legends.exe\" \"8394\" \"lol.launcher_tencent.exe\" \"Air\\LolClient.exe\" \"14.17.13.34 5106 /b1JLj8CyFnCaEcwjCO9ew== 4019237521\"\x0000Game\\League of Legends.exe\x0000WinSta0\\Default\x0000\x0000"
+
+scripts in Game\Datas2.zip, Datas3.zip 
