@@ -11,3 +11,41 @@ commandline
 L"\\Game\\League of Legends.exe\x0000\"Game\\League of Legends.exe\" \"8394\" \"lol.launcher_tencent.exe\" \"Air\\LolClient.exe\" \"14.17.13.34 5106 /b1JLj8CyFnCaEcwjCO9ew== 4019237521\"\x0000Game\\League of Legends.exe\x0000WinSta0\\Default\x0000\x0000"
 
 scripts in Game\Datas2.zip, Datas3.zip 
+
+
+-- camera
+
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"No description"</Description>
+      <LastState Value="1770" RealAddress="3700B79C"/>
+      <VariableType>Float</VariableType>
+      <Address>3700B79C</Address>
+    </CheatEntry>
+  </CheatEntries>
+</CheatTable>
+
+0079FBEF - F6 C4 44 - test ah,44
+0079FBF2 - 7B 08 - jnp "League of Legends.Scaleform::SysAllocStatic::`default constructor closure'"+53B4C
+0079FBF4 - F3 0F11 86 24020000  - movss [esi+00000224],xmm0 <<
+0079FBFC - 8B 4D F4  - mov ecx,[ebp-0C]
+0079FBFF - 64 89 0D 00000000  - mov fs:[00000000],ecx
+
+EAX=1A3603C0
+EBX=000000CB
+ECX=3700B500
+EDX=3EAE2A90
+ESI=3700B578
+EDI=217BC618
+ESP=000DEC0C
+EBP=000DEC20
+EIP=0079FBFC
+
+
+Game\DATA\CFG\defaults\Game.cfg
+[Reconnect]
+NetworkTimeOutMin = 15000
+NetworkTimeOutMax = 15000
