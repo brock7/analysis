@@ -44,8 +44,31 @@ ESP=000DEC0C
 EBP=000DEC20
 EIP=0079FBFC
 
+ESI的地址
+006D699C | 8B 0D 38 46 57 01        | mov ecx,dword ptr ds:[1574638]          |
+006D69A2 | 57                       | push edi                                |
+006D69A3 | 8B 09                    | mov ecx,dword ptr ds:[ecx]              |
+
+// 好像是最大最小值
+0079FBCD | 8B 86 14 02 00 00        | mov eax,dword ptr ds:[esi+214]          |
+0079FBD3 | F3 0F 10 50 24           | movss xmm2,dword ptr ds:[eax+24]        |
+
+// 这里是当前值
+0079FBF4 - F3 0F11 86 24020000  - movss [esi+00000224],xmm0 <<
+0079FBFC - 8B 4D F4  - mov ecx,[ebp-0C]
+0079FBFF - 64 89 0D 00000000  - mov fs:[00000000],ecx
+
+缩放限制地址
+[[[1574638]]+214]+28
 
 Game\DATA\CFG\defaults\Game.cfg
 [Reconnect]
 NetworkTimeOutMin = 15000
 NetworkTimeOutMax = 15000
+
+
+006A6D01 | 8B 04 02                 | mov eax,dword ptr ds:[edx+eax]          |
+006A6D04 | 89 34 01                 | mov dword ptr ds:[ecx+eax],esi          |
+006A6D07 | 8B 75 FC                 | mov esi,dword ptr ss:[ebp-4]            | 写移动速度
+006A6D0A | 8B 45 EC                 | mov eax,dword ptr ss:[ebp-14]           |
+[1573f30]+1008 #当前移动速度
