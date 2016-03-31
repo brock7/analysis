@@ -1,0 +1,4485 @@
+~(gZ
+`Y.k`"}q
+}Hhc<76"
+dzsHWQ.+'
+bqk6kb62*
+%!	:3
+v6MF
+5{q+
+1{p&
+qi.f[
+2eX	SI	JC
+YO	UL
+|(uk
+XM	VK
+/*	E?
+tk,NG 
+e^7?9
+x9MG
+x2-'
+-~t8*#
+/qg')#
+w5[S$
+{+g\"$
+2ne!LB
+e^-]W*
+v'tj*\T
+~&TI
+v2/)
+Stretch	
+Transparent	
+TSpeedButton
+SettingsButton
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+Caption
+Settings
+Flat	
+OnClick
+SettingsClick
+TPanel
+Panel14
+AnchorSideLeft.Control
+gbScanOptions
+AnchorSideLeft.Side
+	asrBottom
+AnchorSideTop.Control
+cbSpeedhack
+AnchorSideTop.Side
+	asrBottom
+AnchorSideRight.Control
+Panel5
+AnchorSideRight.Side
+	asrBottom
+Left
+Height
+Width
+Anchors
+akTop
+akLeft
+akRight
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+Visible
+TLabel
+Label54
+Left
+Height
+Width
+Caption
+Speed
+ParentColor
+TLabel
+lblSH0
+AnchorSideTop.Control
+tbSpeed
+AnchorSideTop.Side
+	asrBottom
+Left
+Height
+Width
+Caption
+ParentColor
+TLabel
+lblSH20
+AnchorSideTop.Control
+tbSpeed
+AnchorSideTop.Side
+	asrBottom
+AnchorSideRight.Control
+tbSpeed
+AnchorSideRight.Side
+	asrBottom
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+BorderSpacing.Right
+Caption
+ParentColor
+TButton
+btnSetSpeedhack2
+AnchorSideLeft.Control
+lblSH0
+AnchorSideTop.Control
+lblSH0
+AnchorSideTop.Side
+	asrBottom
+AnchorSideRight.Control
+lblSH20
+AnchorSideRight.Side
+	asrBottom
+Left
+Height
+Width
+Anchors
+akLeft
+akRight
+Caption
+Apply
+OnClick
+btnSetSpeedhack2Click
+TabOrder
+TEdit
+editSH2
+Left
+Height
+Width
+TabOrder
+Text
+	TTrackBar
+tbSpeed
+AnchorSideTop.Control
+editSH2
+AnchorSideTop.Side
+	asrBottom
+AnchorSideRight.Control
+Panel14
+AnchorSideRight.Side
+	asrBottom
+Left
+Height
+Width
+OnChange
+tbSpeedChange
+Position
+Anchors
+akTop
+akLeft
+akRight
+BorderSpacing.Top
+TabOrder
+TLabel
+lblcompareToSavedScan
+Left
+Height
+Width
+Caption
+(xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ParentColor
+Visible
+OnClick
+lblcompareToSavedScanClick
+TLabel
+Label3
+Left
+Height
+Width
+Caption
+Label3
+ParentColor
+Visible
+OnClick
+Label3Click
+	TListView
+Foundlist3
+Left
+Height
+Hint
+CThis list shows all the found addresses that matched your last scan
+Width
+Anchors
+akTop
+akLeft
+akRight
+akBottom
+Color
+	clBtnFace
+Columns
+Caption
+Address
+Width
+Caption
+Value
+Width
+Caption
+Previous
+Width
+DragMode
+dmAutomatic
+Font.CharSet
+ANSI_CHARSET
+Font.Height
+	Font.Name
+Courier
+HideSelection
+MultiSelect		OwnerData	
+ParentFont
+ParentShowHint
+	PopupMenu
+foundlistpopup
+ReadOnly		RowSelect	
+ShowHint	
+TabOrder
+	ViewStyle
+vsReport
+OnCustomDrawItem
+Foundlist3CustomDrawItem
+OnCustomDrawSubItem
+Foundlist3CustomDrawSubItem
+OnData
+Foundlist3Data
+OnDblClick
+FoundListDblClick	OnKeyDown
+Foundlist3KeyDown
+TTimer
+UpdateTimer
+Interval
+OnTimer
+UpdateTimerTimer
+left
+TTimer
+FreezeTimer
+Interval
+OnTimer
+FreezeTimerTimer
+left
+TPopupMenu
+PopupMenu2
+OnPopup
+PopupMenu2Popup
+left
+	TMenuItem
+Deletethisrecord1
+Caption
+Delete this record
+ShortCut
+OnClick
+Deletethisrecord1Click
+	TMenuItem
+Change1
+Caption
+Change record
+GroupIndex
+	TMenuItem
+Description1
+Caption
+Description
+ShortCut
+OnClick
+Description1Click
+	TMenuItem
+Address1
+Caption
+Address
+ShortCut
+OnClick
+Address1Click
+	TMenuItem
+Type1
+Caption
+Type
+ShortCut
+OnClick
+Type1Click
+	TMenuItem
+Value1
+Caption
+Value
+ShortCut
+OnClick
+Value1Click
+	TMenuItem
+miUndoValue
+Caption
+Undo last edit
+ShortCut
+Visible
+OnClick
+miUndoValueClick
+	TMenuItem
+Smarteditaddresses1
+Caption
+Smart edit address(es)
+GroupIndex
+ShortCut
+OnClick
+Smarteditaddresses1Click
+	TMenuItem
+Browsethismemoryregion1
+Caption
+Browse this memory region
+GroupIndex
+ShortCut
+OnClick
+Browsethismemoryregion1Click
+	TMenuItem
+miShowAsSigned
+Caption
+Show as signed
+OnClick
+miShowAsSignedClick
+	TMenuItem
+Showashexadecimal1
+Caption
+Show as hexadecimal
+GroupIndex
+OnClick
+Showashexadecimal1Click
+	TMenuItem
+miZeroTerminate
+Caption
+Zero-Terminate string
+Checked	
+GroupIndex
+OnClick
+miZeroTerminateClick
+	TMenuItem
+miShowAsBinary
+Caption
+Show as binary
+OnClick
+miShowAsBinaryClick
+	TMenuItem
+miChangeColor
+Caption
+Change Color
+OnClick
+miChangeColorClick
+	TMenuItem
+SetHotkey1
+Caption
+Assign Hotkey
+GroupIndex
+ShortCut
+OnClick
+SetHotkey1Click
+	TMenuItem
+miSetDropdownOptions
+Caption
+%Set/Change dropdown selection options
+OnClick
+miSetDropdownOptionsClick
+	TMenuItem
+Freezealladdresses2
+Caption
+Toggle Selected Records
+GroupIndex
+ShortCut
+Visible
+OnClick
+Freezealladdresses2Click
+	TMenuItem
+miFreezePositive
+Caption
+Freeze Positive
+ShortCut
+Visible
+OnClick
+miFreezePositiveClick
+	TMenuItem
+miFreezeNegative
+Caption
+Freeze Negative
+ShortCut
+Visible
+OnClick
+miFreezeNegativeClick
+	TMenuItem
+Changescript1
+Caption
+Change script
+GroupIndex
+Visible
+OnClick
+Changescript1Click
+	TMenuItem
+Caption
+GroupIndex
+	TMenuItem
+Pointerscanforthisaddress1
+Caption
+Pointer scan for this address
+GroupIndex
+OnClick
+Pointerscanforthisaddress1Click
+	TMenuItem
+Findoutwhataccessesthisaddress1
+Caption
+#Find out what accesses this address
+GroupIndex
+ShortCut
+OnClick
+$Findoutwhataccessesthisaddress1Click
+	TMenuItem
+Setbreakpoint1
+Caption
+$Find out what writes to this address
+GroupIndex
+ShortCut
+OnClick
+Setbreakpoint1Click
+	TMenuItem
+sep1
+Caption
+GroupIndex
+	TMenuItem
+Calculatenewvaluepart21
+Caption
+Recalculate new addresses
+GroupIndex
+OnClick
+Calculatenewvaluepart21Click
+	TMenuItem
+Forcerechecksymbols1
+Caption
+Force recheck symbols
+GroupIndex
+OnClick
+Forcerechecksymbols1Click
+	TMenuItem
+Caption
+GroupIndex
+	TMenuItem
+Cut1
+Caption
+GroupIndex
+ShortCut
+OnClick
+	Cut1Click
+	TMenuItem
+Copy1
+Caption
+Copy
+GroupIndex
+ShortCut
+OnClick
+Copy1Click
+	TMenuItem
+Paste1
+Caption
+Paste
+GroupIndex
+ShortCut
+OnClick
+Paste1Click
+	TMenuItem	MenuItem1
+Caption
+Select All
+ShortCut
+Visible
+OnClick
+MenuItem1Click
+	TMenuItem
+Caption
+GroupIndex
+	TMenuItem
+CreateGroup
+Caption
+Create Header
+OnClick
+CreateGroupClick
+	TMenuItem
+miGroupconfig
+Caption
+Group config
+	TMenuItem
+miHideChildren
+Caption
+Hide children when deactivated
+OnClick
+miHideChildrenClick
+	TMenuItem
+miBindActivation
+Caption
+0(De)Activating this entry (de)activates children
+OnClick
+miBindActivationClick
+	TMenuItem
+miRecursiveSetValue
+Caption
+9Setting a value to this entry sets same value to children
+OnClick
+miRecursiveSetValueClick
+	TMenuItem
+miAllowCollapse
+Caption
+6Allow left and right arrow keys to collapse and expand
+Hint
+RLets the user press the left and right buttons on the keyboard to expand the entry
+OnClick
+miAllowCollapseClick
+	TMenuItem
+miManualExpandCollapse
+Caption
+Manual expand/collapse
+OnClick
+miManualExpandCollapseClick
+	TMenuItem
+Plugins1
+Caption
+Plugins
+GroupIndex
+Visible
+TPopupMenu
+foundlistpopup
+OnPopup
+foundlistpopupPopup
+left
+	TMenuItem
+miAddAddress
+Caption
+)Add selected addresses to the addresslist
+Default	
+OnClick
+miAddAddressClick
+	TMenuItem
+miChangeValue
+Caption
+"Change value of selected addresses
+OnClick
+miChangeValueClick
+	TMenuItem
+Browsethismemoryarrea1
+Caption
+Browse this memory region
+ShortCut
+OnClick
+Browsethismemoryarrea1Click
+	TMenuItem(Browsethismemoryregioninthedisassembler1
+Caption
+Disassemble this memory region
+Enabled
+ShortCut
+OnClick
+-Browsethismemoryregioninthedisassembler1Click
+	TMenuItem
+Removeselectedaddresses1
+Caption
+Remove selected addresses
+ShortCut
+Visible
+OnClick
+Removeselectedaddresses1Click
+	TMenuItem
+Selectallitems1
+Caption
+Select all items
+ShortCut
+Visible
+OnClick
+Selectallitems1Click
+	TMenuItem	MenuItem4
+Caption
+	TMenuItem
+miShowPreviousValue	AutoCheck	
+Caption
+Show previous value column
+Checked	
+OnClick
+miShowPreviousValueClick
+	TMenuItem
+MenuItem19
+Caption
+	TMenuItem
+miDisplayHex
+	AutoCheck	
+Caption
+Hexadecimal
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplayDefault	AutoCheck	
+Caption
+Default
+Checked	
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplayByte
+	AutoCheck	
+Caption
+Byte
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplay2Byte
+	AutoCheck	
+Caption
+2 Bytes
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplay4Byte
+	AutoCheck	
+Caption
+4 Bytes
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplay8Byte
+	AutoCheck	
+Caption
+8 Bytes
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplayFloat
+	AutoCheck	
+Caption
+Float
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+	TMenuItem
+miDisplayDouble
+	AutoCheck	
+Caption
+Double
+GroupIndex
+	RadioItem	
+OnClick
+miChangeDisplayTypeClick
+TOpenDialog
+OpenDialog1
+DefaultExt
+Filter
+All supported cheat tables|*.CT;*.CETRAINER|MyCheat Trainer (*.CETRAINER)|*.CETRAINER|All files (*.*)|*.*|MyCheat Tables (*.CT)|*.CT
+Options
+ofHideReadOnly
+ofFileMustExist
+ofEnableSizing
+left
+TSaveDialog
+SaveDialog1
+DefaultExt
+Filter
+mMyCheat Tables (*.CT)|*.CT|MyCheat Trainer (*.CETRAINER)|*.CETRAINER|MyCheat Trainer Standalone (*.EXE)|*.EXE
+Options
+ofReadOnly
+ofOverwritePrompt
+ofHideReadOnly
+ofPathMustExist
+ofEnableSizing
+left
+TTimer
+TopDisabler
+Enabled
+Interval
+OnTimer
+TopDisablerTimer
+left
+TPopupMenu
+emptypopup
+left
+	TMenuItem	MenuItem2
+Caption
+	New Item1
+TPopupMenu
+ccpmenu
+OnPopup
+ccpmenuPopup
+left
+	TMenuItem
+Cut2
+Caption
+ShortCut
+OnClick
+	Cut2Click
+	TMenuItem
+Copy2
+Caption
+Copy
+ShortCut
+OnClick
+Copy2Click
+	TMenuItem
+Paste2
+Caption
+Paste
+ShortCut
+OnClick
+Paste2Click
+TActionList
+ActionList1
+left
+TAction
+actSave
+Hint
+CSave your current data. Save as .exe to create a standalone trainer
+ImageIndex
+	OnExecute
+actSaveExecute
+ShortCut
+TAction
+actOpen
+Hint
++Open a cheat table or unprotected cetrainer
+ImageIndex
+	OnExecute
+actOpenExecute
+ShortCut
+TAction
+actAutoAssemble
+Caption
+actAutoAssemble	OnExecute
+actAutoAssembleExecute
+ShortCut
+TAction
+actMemoryView
+Caption
+actMemoryView	OnExecute
+btnMemoryViewClick
+ShortCut
+TAction
+actOpenProcesslist	OnExecute
+actOpenProcesslistExecute
+ShortCut
+TAction
+actOpenDissectStructure
+Caption
+actOpenDissectStructure	OnExecute
+actOpenDissectStructureExecute
+ShortCut
+TAction
+actOpenLuaEngine
+Caption
+actOpenLuaEngine	OnExecute
+actOpenLuaEngineExecute
+ShortCut
+TTimer
+UpdateFoundlisttimer
+Interval
+OnTimer
+UpdateFoundlisttimerTimer
+left
+TTimer
+AutoAttachTimer
+Interval
+OnTimer
+AutoAttachTimerTimer
+left
+	TMainMenu	MainMenu1
+left
+	TMenuItem
+File1
+Caption
+&File
+OnClick
+File1Click
+	TMenuItem
+miAddTab
+Caption
+dd scan tab
+ShortCut
+OnClick
+miAddTabClick
+	TMenuItem
+New1
+Caption
+Clear list
+OnClick
+	New1Click
+	TMenuItem	MenuItem8
+Caption
+Open Process
+OnClick
+ShowProcessListButtonClick
+	TMenuItem
+miOpenFile
+Caption
+	Open File
+OnClick
+miOpenFileClick
+	TMenuItem
+Caption
+	TMenuItem
+miSave
+Caption
+Save
+Bitmap.Data
+ShortCut
+OnClick
+miSaveClick
+	TMenuItem
+Save1
+Action
+actSave
+Caption
+Save As...
+Bitmap.Data
+OnClick
+actSaveExecute
+	TMenuItem
+Load1
+Action
+actOpen
+Caption
+Load
+Bitmap.Data
+OnClick
+actOpenExecute
+	TMenuItem	MenuItem3
+Caption
+	TMenuItem
+miSaveScanresults
+Caption
+Save current scanresults
+ShortCut
+OnClick
+miSaveScanresultsClick
+	TMenuItem	MenuItem6
+Caption
+	TMenuItem	MenuItem9
+Caption
+.Generate generic trainer lua script from table
+OnClick
+MenuItem9Click
+	TMenuItem	MenuItem5
+Caption
+	TMenuItem	MenuItem7
+Caption
+Quit
+OnClick
+MenuItem7Click
+	TMenuItem
+Edit3
+Caption
+&Edit
+	TMenuItem	Settings1
+Caption
+Settings
+OnClick
+SettingsClick
+	TMenuItem
+Process1
+Caption
+&Process
+Visible
+OnClick
+Process1Click
+	TMenuItem
+OpenProcess1
+Caption
+Open Process window
+OnClick
+ShowProcessListButtonClick
+	TMenuItem
+CreateProcess1
+Caption
+Create Process
+OnClick
+CreateProcess1Click
+	TMenuItem
+Caption
+	TMenuItem
+Caption
+	TMenuItem
+Caption
+	TMenuItem
+Caption
+	TMenuItem
+Caption
+	TMenuItem
+Caption
+	TMenuItem
+miTable
+Caption
+Table
+OnClick
+miTableClick
+	TMenuItem
+miShowLuaScript
+Caption
+Show Cheat Table Lua Script
+ShortCut
+OnClick
+miShowLuaScriptClick
+	TMenuItem
+MenuItem10
+Caption
+	TMenuItem
+miCreateLuaForm
+Caption
+Create form
+OnClick
+miCreateLuaFormClick
+	TMenuItem
+miResyncFormsWithLua
+Caption
+Resynchronize forms with Lua
+OnClick
+miResyncFormsWithLuaClick
+	TMenuItem
+miLuaFormsSeperator
+Caption
+	TMenuItem	miAddFile
+Caption
+Add file
+OnClick
+miAddFileClick
+	TMenuItem
+mi3d
+Caption
+OnClick
+	mi3dClick
+	TMenuItem	miHookD3D
+Caption
+Hook Direct3D
+OnClick
+miHookD3DClick
+	TMenuItem
+MenuItem11
+Caption
+	TMenuItem
+miSetCrosshair
+Caption
+Set custom crosshair
+Enabled
+OnClick
+miSetCrosshairClick
+	TMenuItem
+miWireframe	AutoCheck	
+Caption
+Toggle wireframe mode
+Enabled
+Visible
+OnClick
+miWireframeClick
+	TMenuItem	miZbuffer	AutoCheck	
+Caption
+Toggle disabled zbuffer
+Enabled
+Visible
+OnClick
+miZbufferClick
+	TMenuItem
+miLockMouseInGame	AutoCheck	
+Caption
+Lock mouse in game window
+Enabled
+OnClick
+miLockMouseInGameClick
+	TMenuItem
+miSetupSnapshotKeys
+Caption
+&Start and configure snapshot recording
+Visible
+OnClick
+miSetupSnapshotKeysClick
+	TMenuItem
+miSnapshothandler
+Caption
+Snapshot handler
+OnClick
+miSnapshothandlerClick
+	TMenuItem
+ools1
+Caption
+&Tools
+	TMenuItem	miNetwork
+Caption
+Network
+Visible
+	TMenuItem
+miCompression
+Caption
+Compression
+OnClick
+miCompressionClick
+	TMenuItem
+Plugins2
+Caption
+P&lugins
+Visible
+	TMenuItem
+Help1
+Caption
+&Help
+	TMenuItem
+Helpindex1
+Caption
+MyCheat Help
+ShortCut
+OnClick
+Helpindex1Click
+	TMenuItem
+miTutorial
+Caption
+MyCheat Tutorial
+OnClick
+miTutorialClick
+	TMenuItem
+Caption
+	TMenuItem
+About1
+Caption
+About
+OnClick
+About1Click
+TPopupMenu	pmTablist
+OnPopup
+pmTablistPopup
+left
+	TMenuItem
+miRenameTab
+Caption
+Rename
+OnClick
+miRenameTabClick
+	TMenuItem
+miTablistSeperator
+Caption
+	TMenuItem
+miCloseTab
+Caption
+	Close tab
+OnClick
+miCloseTabClick
+TPopupMenu
+pmValueType
+OnPopup
+pmValueTypePopup
+left
+	TMenuItem
+miDefineNewCustomType
+Caption
+'Define new custom type (Auto Assembler)
+OnClick
+miDefineNewCustomTypeClick
+	TMenuItem
+miDefineNewCustomTypeLua
+Caption
+Define new custom type (LUA)
+OnClick
+miDefineNewCustomTypeLuaClick
+	TMenuItem
+miEditCustomType
+Caption
+Edit selected custom type
+OnClick
+miEditCustomTypeClick
+	TMenuItem
+miDeleteCustomType
+Caption
+Delete selected custom type
+OnClick
+miDeleteCustomTypeClick
+	TMenuItem
+miShowCustomTypeDebug
+Caption
+Show custom type debug info
+Visible
+OnClick
+miShowCustomTypeDebugClick
+TColorDialog
+ColorDialog1
+Color
+clBlack
+CustomColors.Strings
+ColorA=000000
+ColorB=000080
+ColorC=008000
+ColorD=008080
+ColorE=800000
+ColorF=800080
+ColorG=808000
+ColorH=808080
+ColorI=C0C0C0
+ColorJ=0000FF
+ColorK=00FF00
+ColorL=00FFFF
+ColorM=FF0000
+ColorN=FF00FF
+ColorO=FFFF00
+ColorP=FFFFFF
+ColorQ=C0DCC0
+ColorR=F0CAA6
+ColorS=F0FBFF
+ColorT=A4A0A0
+left
+TPopupMenu
+pmResetRange
+left
+	TMenuItem
+miResetRange
+Caption
+Reset range
+OnClick
+miResetRangeClick
+TPopupMenu
+pmScanRegion
+left
+	TMenuItem
+miPresetAll
+Caption
+Preset: Scan all memory
+OnClick
+miPresetAllClick
+	TMenuItem
+miPresetWritable
+Caption
+Preset: Scan writable memory
+OnClick
+miPresetWritableClick
+FORMDATA
+TMainForm
+TFlash 
+MainUnit
+TToggleWindows
+MainUnit
+MainUnit
+MainUnit
+MainUnit
+MainUnit
+MainUnit
+	TMainForm
+	TMainForm
+MainUnit
+CEDEBUGGER
+Please target another process
+cedebugger.rspleasetargetanotherprocess
+You must first open a process
+cedebugger.rsyoumustfirstopenaprocess
+This will attach the debugger of MyCheat to the current process.
+cedebugger.rsthiswillattachthedebuggerofcheatenginetothecurrent
+If you close MyCheat while the game is running, the game will close too. Are you sure you want to do this?
+cedebugger.rsdonotclosece
+Continue?
+cedebugger.rscontinue
+I couldn't attach the debugger to this process! You could try to open the process using the processpicker and try that! If that also doesn't work check if you have debugging rights.
+cedebugger.rsdebugerror
+Kernel32.dll
+DebugBreakProcess
+DebugSetProcessKillOnExit
+DebugActiveProcessStop
+IsDebuggerPresent
+ntdll.dll
+DbgUiDebugActiveProcess
+DbgBreakPoint
+NtQueryInformationProcess
+NtQueryInformationThread
+NtSuspendProcess
+NtResumeProcess
+NEWKERNELHANDLER
+To use this function you will need to run DBVM. There is a high chance running DBVM can crash your system and make you lose your data(So don't forget to save first). Do you want to run DBVM?
+newkernelhandler.rstousethisfunctionyouwillneedtorundbvm
+I don't know what you did, you didn't crash, but you also didn't load DBVM
+newkernelhandler.rsdidnotloaddbvm
+Please reboot and press f8 before windows boots. Then enable unsigned drivers. Alternatively, you could buy yourself a business class certificate and sign the driver yourself (or try debug signing)
+newkernelhandler.rspleaserebootandpressf8beforewindowsboots
+The driver needs to be loaded to be able to use this function.
+newkernelhandler.rsthedriverneedstobeloadedtobeabletousethisfunction
+Your cpu must be able to run dbvm to use this function
+newkernelhandler.rsyourcpumustbeabletorundbvmtousethisfunction
+%s couldn't be opened
+newkernelhandler.rscouldntbeopened
+Something is really messed up on your computer! You don't seems to have a kernel!!!!
+newkernelhandler.rsfucked
+DBVM is not loaded. This feature is not usable
+LoadDBK32
+VirtualQueryEx
+ReadProcessMemory
+WriteProcessMemory
+VirtualAllocEx
+OpenProcess
+OpenThread
+NtOpenProcess:
+jmp 
+Offset of LBR_Count=
+sizeof fxstate = 
+Kernel32.dll
+VirtualFreeEx
+GetThreadContext
+SetThreadContext
+Wow64GetThreadContext
+Wow64SetThreadContext
+SuspendThread
+ResumeThread
+WaitForDebugEvent
+ContinueDebugEvent
+DebugActiveProcess
+VirtualProtect
+VirtualProtectEx
+CreateRemoteThread
+CreateToolhelp32Snapshot
+Process32First
+Process32Next
+Thread32First
+Thread32Next
+Module32First
+Module32Next
+Heap32ListFirst
+Heap32ListNext
+IsWow64Process
+CloseHandle
+GetLogicalProcessorInformation
+GetLargePageMinimum
+Psapi.dll
+EnumDeviceDrivers
+GetDeviceDriverBaseNameA
+user32.dll
+PrintWindow
+tmoduledata
+CEFUNCPROC
+Left MB
+cefuncproc.rsleftmb
+Middle MB
+cefuncproc.rsmiddlemb
+Right MB
+cefuncproc.rsrightmb
+Break
+cefuncproc.rsbreak
+Backspace
+cefuncproc.rsbackspace
+Shift
+cefuncproc.rsshift
+Ctrl
+cefuncproc.rsctrl
+cefuncproc.rsalt
+cefuncproc.rstab
+Clear
+cefuncproc.rsclear
+Enter
+cefuncproc.rsenter
+Pause
+cefuncproc.rspause
+Caps Lock
+cefuncproc.rscapslock
+cefuncproc.rsesc
+Space bar
+cefuncproc.rsspacebar
+Page Up
+cefuncproc.rspageup
+Page Down
+cefuncproc.rspagedown
+cefuncproc.rsend
+Home
+cefuncproc.rshome
+Left Arrow
+cefuncproc.rsleftarrow
+Up Arrow
+cefuncproc.rsuparrow
+Right Arrow
+cefuncproc.rsrightarrow
+Down Arrow
+cefuncproc.rsdownarrow
+Select
+cefuncproc.rsselect
+Print
+cefuncproc.rsprint
+Execute
+cefuncproc.rsexecute
+Print Screen
+cefuncproc.rsprintscreen
+Insert
+cefuncproc.rsinsert
+Delete 
+cefuncproc.rsdeletekey
+Help
+cefuncproc.rshelp
+Left Windows key
+cefuncproc.rsleftwindowskey
+Right Windows key
+cefuncproc.rsrightwindowskey
+Applications key
+cefuncproc.rsapplicationskey
+numeric
+cefuncproc.rsnumeric
+Num Lock
+cefuncproc.rsnumlock
+Scroll Lock
+cefuncproc.rsscrolllock
+GetProcAddress not found
+cefuncproc.rsgetprocaddressnotfound
+LoadLibraryA not found
+cefuncproc.rsloadlibraryanotfound
+Failed to allocate memory
+cefuncproc.rsfailedtoallocatememory
+Failed to inject the dll loader
+cefuncproc.rsfailedtoinjectthedllloader
+Failed to execute the dll loader
+cefuncproc.rsfailedtoexecutethedllloader
+The injection thread took longer than 10 seconds to execute. Injection routine not freed
+cefuncproc.rstheinjectionthreadtooklongerthan10secondstoexecute
+Failed injecting the DLL
+cefuncproc.rsfailedinjectingthedll
+Failed executing the function of the dll
+cefuncproc.rsfailedexecutingthefunctionofthedll
+Unknown error during injection
+cefuncproc.rsunknownerrorduringinjection
+I can't get the process list. You are propably using windows NT. Use the window list instead!
+cefuncproc.rsicantgettheprocesslistyouarepropablyusingwindowsnt
+No kernel32.dll loaded
+cefuncproc.rsnokernel32dllloaded
+Invalid integer
+cefuncproc.rsinvalidinteger
+ Separator
+Kernel32.dll
+Kernel32!GetProcAddress
+GetProcAddress
+Kernel32!LoadLibraryA
+LoadLibraryA
+SUB RSP,#40
+MOV RCX,
+PUSH 
+CALL 
+ADD RSP,#40
+TEST RAX,RAX
+TEST EAX,EAX
+JNE 
+MOV EAX,2
+PUSH EAX
+MOV EAX,3
+CALL RAX
+CALL EAX
+MOV EAX,1
+Memory.TMP
+Addresses.TMP
+Memory.UNDO
+Addresses.UNDO
+\My Cheat Tables
+\Software\MyCheat
+Save window positions
+\Software\MyCheat\Window Positions
+ Position
+(INT)
+(DOUBLE)
+(FLOAT)
+Binary
+Array of byte
+Byte
+2 Bytes
+4 Bytes
+8 Bytes
+Float
+Double
+String
+Unicode String
+Pointer
+Auto Assembler Script
+Custom
+binary
+array of byte
+byte
+2 bytes
+4 bytes
+8 bytes
+float
+double
+string
+unicode string
+pointer
+custom
+grouped
+auto assembler script
+HEAP_NO_SERIALIZE+
+HEAP_GROWABLE+
+HEAP_GENERATE_EXCEPTIONS+
+HEAP_ZERO_MEMORY+
+HEAP_REALLOC_IN_PLACE_ONLY+
+HEAP_TAIL_CHECKING_ENABLED+
+HEAP_FREE_CHECKING_ENABLED+
+HEAP_DISABLE_COALESCE_ON_FREE+
+HEAP_CREATE_ALIGN_16+
+HEAP_CREATE_ENABLE_TRACING+
+HEAP_CREATE_ENABLE_EXECUTE+
+HEAP_PSEUDO_TAG_FLAG+
+kernel32.dll
+D:P(D;;;;;BG)
+	TScanType
+	stNewScan
+stFirstScan
+stNextScan
+CEFuncProc
+TVariableType
+vtByte
+vtWord
+vtDword
+vtQword
+vtSingle
+vtDouble
+vtString
+vtUnicodeString
+vtByteArray
+vtBinary
+vtAll
+vtAutoAssembler	vtPointer
+vtCustom	vtGrouped
+vtByteArrays
+CEFuncProc
+TaccessRight
+	arExecute
+arRead
+arWrite
+CEFuncProc
+TAccessRights
+TAddressArray
+CEFuncProc
+TBytes
+CEFuncProc
+TMemoryRegion
+TMemoryRegions
+CEFuncProc
+TBitAddress
+ToffsetList
+CEFuncProc
+tmoduledata
+CEFuncProc
+Tprocesslistitem
+CEFuncProc
+TCEAlloc
+TCEAllocArray
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+TProcessHandler
+onOpenProcess
+TProcessHandlerD2
+ProcessHandlerUnit
+symexception
+TSymHandler\
+TSymbolloaderthread
+SYMBOLHANDLER
+Symbolloaderthread has crashed
+symbolhandler.rssymbolloaderthreadhascrashed
+You can't change this setting at the moment
+symbolhandler.rsyoucantchangethissettingatthemoment
+Please provide a bigger size
+symbolhandler.rspleaseprovideabiggersize
+Error allocating memory
+symbolhandler.rserrorallocatingmemory
+The symbol named %s was previously declared with a size of %s instead of %s. all scripts that use this memory must give the same size. Adjust the size, or delete the old alloc from the userdefined symbol list
+symbolhandler.rsthesymbolnamedwaspreviouslydeclared
+already exists
+symbolhandler.rsalreadyexists
+You can't add a symbol with address 0
+symbolhandler.rsyoucantaddasymbolwithaddress0
+Failure determining what %s means
+symbolhandler.rsfailuredeterminingwhatmeans
+finishedLoadingSymbols called
+exit finishedLoadingSymbols()
+NoType
+VOID
+CHAR
+WCHAR
+UINT
+FLOAT
+BOOL
+LONG
+ULONG
+CURRENCY
+DATE
+VARIANT
+COMPLEX
+BTSTR
+HRESULT
+BasicType
+(function)
+<vtable>
+TIMER
+EFAD1
+EFAD2
+EFAD3
+VFRAME
+HANDLE
+PARAMS
+LOCALS
+CMDLN
+_NT_SYMBOL_PATH
+_NT_ALTERNATE_SYMBOL_PATH
+symbolloader thread finished
+Symbolhandler: sync: Calling finishedloadingsymbols
+after finishedloadingsymbols
+Symbolhandler was terminated. Not going to sync
+Symbol loader thread has finished without errors
+KERNEL_
+THREADSTACK
+.exe
+commonmodulelist.txt
+\win32\dbghelp.dll
+Dbghelp.dll
+SymFromName
+SymFromAddr
+Psapi.dll
+EnumProcessModules
+EnumProcessModulesEx
+GetModuleFileNameExA
+symexception
+symbolhandler
+TUserdefinedsymbol
+TModuleInfo
+symbolhandler
+symbolhandler
+symbolhandler
+TDotNetModuleSymbols
+symbolhandler
+symbolhandler
+symbolhandler
+TModuleInfoArray
+symbolhandler
+TSymHandler
+TSymHandler
+symbolhandler
+TSymbolloaderthread
+TSymbolloaderthreadt4
+symbolhandler
+TTokens
+symbolhandler
+TSymbolLookupCallbackPoint
+slStart
+slNotInt
+slNotModule
+slNotUserdefinedSymbol
+slNotSymbol	slFailure
+symbolhandler
+TSymbolLookupCallback
+AnsiString
+LongWord
+TAddressLookupCallback
+address
+LongWord
+AnsiString
+symbolhandler
+symbolhandler\
+TSingleLineAssembler
+ADDPD
+ADDPS
+ADDSD
+ADDSS
+ANDNPD
+ANDNPS
+ANDPD
+ANDPS
+ARPL
+BOUND
+BOUND
+BSWAP
+BSWAP
+CALL
+CALL
+CDQE
+CLFLUSH
+CLTS
+CMOVA
+CMOVA
+CMOVAE
+CMOVAE
+CMOVB
+CMOVB
+CMOVBE
+CMOVBE
+CMOVC
+CMOVC
+CMOVE
+CMOVE
+CMOVG
+CMOVG
+CMOVGE
+CMOVGE
+CMOVL
+CMOVL
+CMOVLE
+CMOVLE
+CMOVNA
+CMOVNA
+CMOVNAE
+CMOVNAE
+CMOVNB
+CMOVNB
+CMOVNBE
+CMOVNBE
+CMOVNC
+CMOVNC
+CMOVNE
+CMOVNE
+CMOVNG
+CMOVNG
+CMOVNGE
+CMOVNGE
+CMOVNL
+CMOVNL
+CMOVNLE
+CMOVNLE
+CMOVNO
+CMOVNO
+CMOVNP
+CMOVNP
+CMOVNS
+CMOVNS
+CMOVNZ
+CMOVNZ
+CMOVO
+CMOVO
+CMOVP
+CMOVP
+CMOVPE
+CMOVPE
+CMOVPO
+CMOVPO
+CMOVS
+CMOVS
+CMOVZ
+CMOVZ
+CMPPD
+CMPPS
+CMPSB
+CMPSD
+CMPSD
+CMPSS
+CMPSW
+CMPXCHG
+CMPXCHG
+CMPXCHG
+CMPXCHG8B
+COMISD
+COMISS
+CPUID
+CVTDQ2PD
+CVTDQ2PS
+CVTPD2DQ
+CVTPD2PI
+CVTPD2PS
+CVTPI2PD
+CVTPI2PS
+CVTPS2DQ
+CVTPS2PD
+CVTPS2PI
+CVTSD2SI
+CVTSD2SS
+CVTSI2SD
+CVTSI2SS
+CVTSS2SD
+CVTSS2SI
+CVTTPD2DQ
+CVTTPD2PI
+CVTTPS2PI
+CVTTSD2SI
+CVTTSS2SI
+CWDE
+DIVPD
+DIVPS
+DIVSD
+DIVSS
+EMMS
+ENTER
+F2XM1
+FABS
+FADD
+FADD
+FADD
+FADD
+FADD
+FADDP
+FADDP
+FADDP
+FBLD
+FBSTP
+FCHS
+FCLEX
+FCMOVB
+FCMOVB
+FCMOVBE
+FCMOVBE
+FCMOVE
+FCMOVE
+FCMOVNB
+FCMOVNB
+FCMOVNBE
+FCMOVNBE
+FCMOVNE
+FCMOVNE
+FCMOVNU
+FCMOVNU
+FCMOVU
+FCMOVU
+FCOM
+FCOM
+FCOM
+FCOM
+FCOM
+FCOMP
+FCOMP
+FCOMP
+FCOMP
+FCOMP
+FCOMI
+FCOMI
+FCOMIP
+FCOMIP
+FCOMPP
+FCOMPP
+FCOS
+FDECSTP
+FDIV
+FDIV
+FDIV
+FDIV
+FDIV
+FDIVP
+FDIVP
+FDIVP
+FDIVR
+FDIVR
+FDIVR
+FDIVR
+FDIVR
+FDIVRP
+FDIVRP
+FFREE
+FIADD
+FIADD
+FICOM
+FICOM
+FICOMP
+FICOMP
+FIDIV
+FIDIV
+FIDIVR
+FIDIVR
+FILD
+FILD
+FILD
+FIMUL
+FIMUL
+FINCSTP
+FINIT
+FIST
+FIST
+FISTP
+FISTP
+FISTP
+FISUB
+FISUB
+FISUBR
+FISUBR
+FLD1
+FLDCW
+FLDENV
+FLDL2E
+FLDL2T
+FLDLG2
+FLDLN2
+FLDPI
+FLDZ
+FMUL
+FMUL
+FMUL
+FMUL
+FMUL
+FMULP
+FMULP
+FMULP
+FNINIT
+FNCLEX
+FNOP
+FNSAVE
+FNSTCW
+FNSTENV
+FNSTSW
+FNSTSW
+FPATAN
+FPREM
+FPREM1
+FPTAN
+FRNDINT
+FRSTOR
+FSAVE
+FSCALE
+FSIN
+FSINCOS
+FSQRT
+FSTCW
+FSTENV
+FSTP
+FSTP
+FSTP
+FSTP
+FSTSW
+FSTSW
+FSUB
+FSUB
+FSUB
+FSUB
+FSUB
+FSUBP
+FSUBP
+FSUBP
+FSUBR
+FSUBR
+FSUBR
+FSUBR
+FSUBR
+FSUBRP
+FSUBRP
+FSUBRP
+FTST
+FUCOM
+FUCOM
+FUCOMI
+FUCOMI
+FUCOMIP
+FUCOMIP
+FUCOMP
+FUCOMP
+FUCOMPP
+FWAIT
+FXAM
+FXCH
+FXCH
+FXRSTOR
+FXSAVE
+FXTRACT
+FYL2X
+FYL2XP1
+IDIV
+IDIV
+IDIV
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+IMUL
+INSB
+INSD
+INSW
+INTO
+INVD
+INVLPG
+IRET
+IRETD
+IRETQ
+JCXZ
+JECXZ
+JNAE
+JNAE
+JNBE
+JNBE
+JNGE
+JNGE
+JNLE
+JNLE
+LAHF
+LDDQU
+LDMXCSR
+LEAVE
+LFENCE
+LGDT
+LGDT
+LIDT
+LIDT
+LLDT
+LMSW
+LODSB
+LODSD
+LODSW
+LOOP
+LOOPE
+LOOPNE
+LOOPNZ
+LOOPZ
+MASKMOVDQU
+MASKMOVQ
+MAXPD
+MAXPS
+MAXSD
+MAXSS
+MFENCE
+MINPD
+MINPS
+MINSD
+MINSS
+MOVAPD
+MOVAPS
+MOVAPS
+MOVD
+MOVD
+MOVD
+MOVD
+MOVDQ2Q
+MOVDQA
+MOVDQA
+MOVDQU
+MOVDQU
+MOVHLPS
+MOVHPD
+MOVHPD
+MOVHPS
+MOVHPS
+MOVLHPS
+MOVLPD
+MOVLPD
+MOVLPS
+MOVLPS
+MOVMSKPD
+MOVMSKPS
+MOVNTDQ
+MOVNTI
+MOVNTPD
+MOVNTPS
+MOVNTQ
+MOVQ
+MOVQ
+MOVQ
+MOVQ
+MOVQ
+MOVQ
+MOVQ2DQ
+MOVSB
+MOVSD
+MOVSD
+MOVSD
+MOVSS
+MOVSS
+MOVSW
+MOVSX
+MOVSX
+MOVSX
+MOVSXD
+MOVUPD
+MOVUPD
+MOVUPS
+MOVUPS
+MOVZX
+MOVZX
+MOVZX
+MULPD
+MULPS
+MULSD
+MULSS
+ORPD
+ORPS
+OUTSB
+OUTSD
+OUTSW
+PACKSSDW
+PACKSSDW
+PACKSSWB
+PACKSSWB
+PACKUSWB
+PACKUSWB
+PADDB
+PADDB
+PADDD
+PADDD
+PADDQ
+PADDQ
+PADDSB
+PADDSB
+PADDSW
+PADDSW
+PADDUSB
+PADDUSB
+PADDUSW
+PADDUSW
+PADDW
+PADDW
+PAND
+PAND
+PANDN
+PANDN
+PAUSE
+PAVGB
+PAVGB
+PAVGW
+PAVGW
+PCMPEQB
+PCMPEQB
+PCMPEQD
+PCMPEQD
+PCMPEQW
+PCMPEQW
+PCMPGTB
+PCMPGTB
+PCMPGTD
+PCMPGTD
+PCMPGTW
+PCMPGTW
+PCPPS
+PCPSS
+PEXTRW
+PEXTRW
+PINSRW
+PINSRW
+PMADDWD
+PMADDWD
+PMAXSW
+PMAXSW
+PMAXUB
+PMAXUB
+PMINSW
+PMINSW
+PMINUB
+PMINUB
+PMOVMSKB
+PMOVMSKB
+PMULHUW
+PMULHUW
+PMULHW
+PMULHW
+PMULLD
+PMULLW
+PMULLW
+PMULUDQ
+PMULUDQ
+POPA
+POPAD
+POPALL
+POPF
+POPFD
+POPFQ
+PREFETCH0
+PREFETCH1
+PREFETCH2
+PREFETCHA
+PSADBW
+PSADBW
+PSHUFD
+PSHUFHW
+PSHUFLW
+PSHUFW
+PSLLD
+PSLLD
+PSLLD
+PSLLD
+PSLLDQ
+PSLLQ
+PSLLQ
+PSLLQ
+PSLLQ
+PSLLW
+PSLLW
+PSLLW
+PSLLW
+PSQRTPS
+PSQRTSS
+PSRAD
+PSRAD
+PSRAD
+PSRAD
+PSRAW
+PSRAW
+PSRAW
+PSRAW
+PSRLD
+PSRLD
+PSRLD
+PSRLD
+PSRLDQ
+PSRLQ
+PSRLQ
+PSRLQ
+PSRLQ
+PSRLW
+PSRLW
+PSRLW
+PSRLW
+PSUBB
+PSUBB
+PSUBD
+PSUBD
+PSUBQ
+PSUBQ
+PSUBSB
+PSUBSB
+PSUBSW
+PSUBSW
+PSUBUSB
+PSUBUSB
+PSUBUSW
+PSUBUSW
+PSUBW
+PSUBW
+PSUSB
+PSUSB
+PSUSW
+PSUSW
+PUNPCKHBW
+PUNPCKHBW
+PUNPCKHDQ
+PUNPCKHDQ
+PUNPCKHQDQ
+PUNPCKHWD
+PUNPCKHWD
+PUNPCKLBW
+PUNPCKLBW
+PUNPCKLDQ
+PUNPCKLDQ
+PUNPCKLQDQ
+PUNPCKLWD
+PUNPCKLWD
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+PUSHA
+PUSHAD
+PUSHALL
+PUSHF
+PUSHFD
+PUSHFQ
+PXOR
+PXOR
+RCPSS
+RCPPS
+RDMSR
+RDPMC
+RDTSC
+RETN
+RETN
+RSQRTPS
+RSQRTSS
+SAHF
+SCASB
+SCASD
+SCASW
+SETA
+SETAE
+SETB
+SETBE
+SETC
+SETE
+SETG
+SETGE
+SETL
+SETLE
+SETNA
+SETNAE
+SETNB
+SETNBE
+SETNC
+SETNE
+SETNG
+SETNGE
+SETNL
+SETNLE
+SETNO
+SETNP
+SETNS
+SETNZ
+SETO
+SETP
+SETPE
+SETPO
+SETS
+SETZ
+SFENCE
+SGDT
+SHLD
+SHLD
+SHLD
+SHLD
+SHRD
+SHRD
+SHUFPD
+SHUFPS
+SIDT
+SLDT
+SMSW
+SQRTPD
+SQRTPS
+SQRTSD
+SQRTSS
+STMXCSR
+STOSB
+STOSD
+STOSW
+SUBPD
+SUBPS
+SUBSD
+SUBSS
+SWAPGS
+SYSENTER
+SYSEXIT
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+TEST
+UCOMISD
+UCOMISS
+UNPCKHPD
+UNPCKHPS
+UNPCKLPD
+UNPCKLPS
+VERR
+VERW
+VMCALL
+VMCLEAR
+VMLAUNCH
+VMPTRLD
+VMPTRST
+VMREAD
+VMRESUME
+VMWRITE
+VMXOFF
+VMXON
+WAIT
+WBINVD
+WRMSR
+XADD
+XADD
+XADD
+XCHG
+XCHG
+XCHG
+XCHG
+XCHG
+XCHG
+XCHG
+XCHG
+XCHG
+XCHG
+XLATB
+XORPD
+XORPS
+XRSTOR
+XRSTOR64
+XSAVE
+XSAVE64
+XMM0
+ST(0)
+XMM1
+ST(1)
+XMM2
+ST(2)
+XMM3
+ST(3)
+XMM4
+ST(4)
+XMM5
+ST(5)
+XMM6
+ST(6)
+XMM7
+ST(7)
+Invalid register
+XMM8
+ST(8)
+XMM9
+ST(9)
+R10D
+R10W
+R10L
+MM10
+XMM10
+ST(10)
+CR10
+DR10
+R11D
+R11W
+R11L
+MM11
+XMM11
+ST(11)
+CR11
+DR11
+R12D
+R12W
+R12L
+MM12
+XMM12
+ST(12)
+CR12
+DR12
+R13D
+R13W
+R13L
+MM13
+XMM13
+ST(13)
+CR13
+DR13
+R14D
+R14W
+R14L
+MM14
+XMM14
+ST(14)
+CR14
+DR14
+R15D
+R15W
+R15L
+MM15
+XMM15
+ST(15)
+CR15
+DR15
+LONG 
+SHORT 
+FAR 
+DQWORD 
+TBYTE 
+TWORD 
+QWORD 
+DWORD 
+WORD 
+BYTE 
+Invalid
+KERNEL_
+BYTE
+BYTE PTR
+DQWORD
+DQWORD PTR
+DWORD
+DWORD PTR
+LONG
+QWORD
+QWORD PTR
+SHORT
+TBYTE
+TBYTE PTR
+TWORD
+TWORD PTR
+WORD
+WORD PTR
+Invalid multiplier
+WTF is a 
+I don't understand what you mean with 
+Negative registers can not be encoded
+Invalid address
+The assembler tried to set a register value that is too high
+LOCK
+REPNE
+REPE
+CALL
+Assembler error
+offset too big
+topcode
+ttokens
+Assemblerunit
+TAssemblerBytes
+Assemblerunit
+TAssemblerEvent
+address
+LongInt
+instruction
+AnsiString
+bytes
+TAssemblerBytes
+Assemblerunit
+TSingleLineAssembler
+Assemblerunit
+Assemblerunit
+Assemblerunit
+(byte)
+(word)
+(dword)
+(qword)
+%.2f
+(float)
+(double)
+(pointer)
+(...)
+TAddressParser
+This is not a valid address
+TSeperator
+plus
+minus
+multiply
+addressparser
+addressparser
+addressparser
+addressparser
+TAddressParser
+TAddressParser
+addressparser
+TRegisteredAutoAssemblerCommand
+7TFPGList<autoassembler.TRegisteredAutoAssemblerCommand>
+AUTOASSEMBLER
+Forward jump with no label defined
+autoassembler.rsforwardjumpwithnolabeldefined
+There is code defined without specifying the address it belongs to
+autoassembler.rsthereiscodedefinedwithoutspecifyingtheaddressitbel
+%s is not a valid bytestring
+autoassembler.rsisnotavalidbytestring
+The bytes at %s are not what was expected
+autoassembler.rsthebytesatarenotwhatwasexpected
+The memory at +%s can not be read
+autoassembler.rsthememoryatcannotberead
+Wrong syntax. ASSERT(address,11 22 33 ** 55 66)
+autoassembler.rswrongsyntaxassertaddress1122335566
+%s is not a valid size
+autoassembler.rsisnotavalidsize
+Wrong syntax. GLOBALALLOC(name,size)
+autoassembler.rswrongsyntaxglobalallocnamesize
+%s could not be found
+autoassembler.rscouldnotbefound
+Wrong syntax. Include(filename.cea)
+autoassembler.rswrongsyntaxincludefilenamecea
+Wrong syntax. CreateThread(address)
+autoassembler.rswrongsyntaxcreatethreadaddress
+%s could not be injected
+autoassembler.rscouldnotbeinjected
+Wrong syntax. LoadLibrary(filename)
+autoassembler.rswrongsyntaxloadlibraryfilename
+Wrong Syntax. LuaCall(luacommand)
+autoassembler.rswrongsyntaxluacall
+Invalid address for ReadMem
+autoassembler.rsinvalidaddressforreadmem
+Invalid size for ReadMem
+autoassembler.rsinvalidsizeforreadmem
+The memory at %s could not be fully read
+autoassembler.rsthememoryatcouldnotbefullyread
+Wrong syntax. ReadMem(address,size)
+autoassembler.rswrongsyntaxreadmemaddresssize
+The file %s does not exist
+autoassembler.rsthefiledoesnotexist
+Wrong syntax. LoadBinary(address,filename)
+autoassembler.rswrongsyntaxloadbinaryaddressfilename
+Wrong syntax. Reassemble(address)
+autoassembler.rswrongsyntaxreassemble
+Syntax error
+autoassembler.rssyntaxerror
+Wrong syntax. AOBSCAN(name,11 22 33 ** 55)
+autoassembler.rswrongsyntaxaobscanname11223355
+Wrong syntax. AOBSCANMODULE(name, module, 11 22 33 ** 55)
+autoassembler.rswrongsyntaxaobscanmodulename11223355
+Wrong syntax. DEFINE(name,whatever)
+autoassembler.rswrongsyntaxdefinenamewhatever
+Syntax error. FullAccess(address,size)
+autoassembler.rssyntaxerrorfullaccessaddresssize
+%s is not a valid identifier
+autoassembler.rsisnotavalididentifier
+%s is being redeclared
+autoassembler.rsisbeingredeclared
+label %s is being defined more than once
+autoassembler.rslabelisbeingdefinedmorethanonce
+label %s is not defined in the script
+autoassembler.rslabelisnotdefinedinthescript
+The identifier %s has already been declared
+autoassembler.rstheidentifierhasalreadybeendeclared
+Wrong syntax. ALLOC(identifier,sizeinbytes)
+autoassembler.rswrongsyntaxallocidentifiersizeinbytes
+You need to use kernelmode read/writeprocessmemory if you want to use KALLOC
+autoassembler.rsneedtousekernelmodereadwriteprocessmemory
+Sorry, but without the driver KALLOC will not function
+autoassembler.rssorrybutwithoutthedriverkallocwillnotfunction
+Wrong syntax. kalloc(identifier,sizeinbytes)
+autoassembler.rswrongsyntaxkallocidentifiersizeinbytes
+This address specifier is not valid
+autoassembler.rsthisaddressspecifierisnotvalid
+This instruction can't be compiled
+autoassembler.rsthisinstructioncantbecompiled
+Error in line %s (%s) :%s
+autoassembler.rserrorinline
+%s was supposed to be added to the symbollist, but it isn't declared
+autoassembler.rswassupposedtobeaddedtothesymbollistbutitisntdeclar
+The address in createthread(%s) is not valid
+autoassembler.rstheaddressincreatethreadisnotvalid
+The address in loadbinary(%s,%s) is not valid
+autoassembler.rstheaddressinloadbinaryisnotvalid
+This code can be injected. Are you sure?
+autoassembler.rsthiscodecanbeinjectedareyousure
+Failure to allocate memory
+autoassembler.rsfailuretoallocatememory
+Not all instructions could be injected
+autoassembler.rsnotallinstructionscouldbeinjected
+The following kernel addresses where allocated
+autoassembler.rsthefollowingkerneladdresseswhereallocated
+The code injection was successfull
+autoassembler.rsthecodeinjectionwassuccessfull
+You can only have one enable section
+autoassembler.rsyoucanonlyhaveoneenablesection
+You can only have one disable section
+autoassembler.rsyoucanonlyhaveonedisablesection
+You havn't specified a enable section
+autoassembler.rsyouhavntspecifiedaenablesection
+You havn't specified a disable section
+autoassembler.rsyouhavntspecifiedadisablesection
+ is a reserved word
+ENDSTRUCT
+ENDS
+No idea what 
+No end found
+define(
+_size,
+Error in the structure definition of 
+ at line 
+RandomLabel
+label(
+AOBSCAN(
+DEFINE(
+, 00000000)
+AOBSCANMODULE(
+module not found:
+The array of byte named 
+ could not be found
+Error while scanning for AOB's : 
+Error: 
+{$LUA}
+{$ASM}
+local syntaxcheck=...
+Lua error in the script at line 
+REGISTERSYMBOL(
+ Got 
+ASSERT(
+GLOBALALLOC(
+INCLUDE(
+.CEA
+includes
+CREATETHREAD(
+LOADLIBRARY(
+LUACALL(
+READMEM(
+<READMEM
+REASSEMBLE(
+LOADBINARY(
+UNREGISTERSYMBOL(
+STRUCT 
+FULLACCESS(
+LABEL(
+DEALLOC(
+ALLOC(
+ffffffffffffffff
+00000000
+KALLOC(
+<READMEM%d>
+[ENABLE]
+[DISABLE]
+[32-BIT]
+[/32-BIT]
+[64-BIT]
+[/64-BIT]
+TAutoAssemblerPrologue
+code
+TStrings
+syntaxcheckonly
+Boolean
+TRegisteredAutoAssemblerCommand
+TRegisteredAutoAssemblerCommandh
+autoassembler
+TFPGList$1$crcDBC63A8D
+autoassembler
+autoassembler
+autoassembler
+	TAOBEntry
+autoassembler
+autoassembler
+tassembled
+autoassembler
+autoassembler
+tlabel
+tdefine
+autoassembler
+autoassembler
+autoassembler
+autoassembler
+autoassembler
+autoassembler
+tfullaccess
+autoassembler
+autoassembler
+autoassembler
+autoassembler
+autoassembler
+autoassembler`
+tprocesslistlong
+TProcessWindow
+btnNetworkClick
+CancelButtonClick
+miOwnProcessesOnlyClick
+OKButtonClick
+btnProcesslistClick
+btnWindowListClick
+btnCreateThreadClick
+Button4Click
+btnOpenFileClick
+InputPIDmanually1Click
+Filter1Click
+btnProcessWatchClick
+FormResize
+btnProcessListLongClick	FormClose
+PopupMenu1Popup
+ProcessListDrawItem
+FormShow
+ProcessListKeyPress
+Showinvisiblewindows1Click
+btnNetworkh
+miOwnProcessesOnlyl
+ProcessListp
+Panel1t
+OpenDialog1x
+OpenDialog2|
+PopupMenu1
+InputPIDmanually1
+Filter1
+Panel2
+btnProcessWatch
+btnWindowList
+btnProcesslist
+btnOpenFile
+btnCreateThread
+Button4
+CancelButton
+OKButton
+btnProcessListLong
+Showinvisiblewindows1
+PROCESSWINDOWUNIT
+%s isn't a valid processID
+processwindowunit.rsisntavalidprocessid
+Physical Memory
+processwindowunit.rsphysicalmemory
+You can only load EXE files
+processwindowunit.rsyoucanonlyloadexefiles
+Create Process
+processwindowunit.rscreateprocess
+Optional launch parameters
+processwindowunit.rsoptionallaunchparameters
+Are you sure you want to attach the debugger and not just open this process? (You can later on always attach the debugger)
+processwindowunit.rsattachdebuggerornot
+Please select another process
+processwindowunit.rspleaseselectanotherprocess
+First select a process!
+processwindowunit.rsfirstselectaprocess
+Manual PID
+processwindowunit.rsmanualpid
+Enter the ProcessID
+processwindowunit.rsentertheprocessid
+Filter
+processwindowunit.rsfilter
+What are you looking for?
+processwindowunit.rswhatareyoulookingfor
+Scanning (Click to stop)
+processwindowunit.rsscanningclicktostop
+Process List(long)
+processwindowunit.rsprocesslistlong
+Process List
+processwindowunit.rsprocesslist
+00000000-[
+.EXE
+ : *
+TPF0
+TProcessWindow
+ProcessWindow
+Left
+Height
+Width
+HelpContext
+BorderIcons
+biSystemMenu
+Caption
+Process List
+ClientHeight
+ClientWidth
+Font.Height
+	Font.Name
+MS Sans Serif
+OnClose
+	FormClose
+OnResize
+FormResize
+OnShow
+FormShow
+Position
+poMainFormCenter
+LCLVersion
+TListBox
+ProcessList
+Left
+Height
+Width
+Align
+alClient
+ItemHeight
+OnDblClick
+OKButtonClick
+OnDrawItem
+ProcessListDrawItem
+OnKeyPress
+ProcessListKeyPress	PopupMenu
+PopupMenu1
+Style
+lbOwnerDrawFixed
+TabOrder
+TPanel
+Panel1
+Left
+Height
+Width
+Align
+alBottom
+BevelInner
+	bvLowered
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TPanel
+Panel2
+Left
+Height
+Width
+Align
+alClient
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TButton
+btnProcessWatch
+Left
+Height
+Width
+Caption
+Process watch
+OnClick
+btnProcessWatchClick
+TabOrder
+TButton
+btnWindowList
+Left
+Height
+Width
+Caption
+Window List
+OnClick
+btnWindowListClick
+TabOrder
+TButton
+btnProcesslist
+Left
+Height
+Width
+Caption
+Process List
+OnClick
+btnProcesslistClick
+TabOrder
+TButton
+btnOpenFile
+Left
+Height
+Width
+Caption
+	Open file
+OnClick
+btnOpenFileClick
+TabOrder
+TButton
+btnCreateThread
+Left
+Height
+Width
+Caption
+Create process
+OnClick
+btnCreateThreadClick
+TabOrder
+TButton
+Button4
+Left
+Height
+Width
+Caption
+Attach debugger to process
+OnClick
+Button4Click
+TabOrder
+TButton
+CancelButton
+Left
+Height
+Width
+Cancel	
+Caption
+Cancel
+OnClick
+CancelButtonClick
+TabOrder
+TButton
+OKButton
+Left
+Height
+Width
+Caption
+Open
+Default	
+OnClick
+OKButtonClick
+TabOrder
+TButton
+btnProcessListLong
+Left
+Height
+Width
+Caption
+Process List(long)
+OnClick
+btnProcessListLongClick
+TabOrder
+TButton
+btnNetwork
+Left
+Height
+Width
+Caption
+Network
+OnClick
+btnNetworkClick
+TabOrder
+TOpenDialog
+OpenDialog1
+DefaultExt
+.EXE
+Filter
+EXE files|*.exe
+TOpenDialog
+OpenDialog2
+Filter
+All files (*.*)|*.*
+left
+TPopupMenu
+PopupMenu1
+OnPopup
+PopupMenu1Popup
+left
+	TMenuItem
+InputPIDmanually1
+Caption
+Input PID manually
+ShortCut
+OnClick
+InputPIDmanually1Click
+	TMenuItem
+Filter1
+Caption
+Filter
+ShortCut
+OnClick
+Filter1Click
+	TMenuItem
+Showinvisiblewindows1
+Caption
+Show invisible windows
+ShortCut
+OnClick
+Showinvisiblewindows1Click
+	TMenuItem
+miOwnProcessesOnly	AutoCheck	
+Caption
+'Only show processes of the current user
+OnClick
+miOwnProcessesOnlyClick
+FORMDATA
+TProcessWindow
+tprocesslistlong
+tprocesslistlong$
+ProcessWindowUnit
+TProcessWindow
+TProcessWindow
+ProcessWindowUnit
+MAINUNIT2
+......
+mainunit2.cename
+Please Wait!
+mainunit2.rspleasewait
+Start
+mainunit2.strstart
+Stop
+mainunit2.strstop
+mainunit2.strok
+New Scan
+mainunit2.strnewscan
+First Scan
+mainunit2.strfirstscan
+No description
+mainunit2.strnodescription
+Exact
+mainunit2.strexact
+Exact Value
+mainunit2.strexactvalue
+Bigger than...
+mainunit2.strbiggerthan
+Smaller than...
+mainunit2.strsmallerthan
+Increased value
+mainunit2.strincreasedvalue
+Increased value by ...
+mainunit2.strincreasedvalueby
+Decreased value
+mainunit2.strdecreasedvalue
+Decreased value by ...
+mainunit2.strdecreasedvalueby
+Value between...
+mainunit2.strvaluebetween
+Changed value
+mainunit2.strchangedvalue
+Unchanged value
+mainunit2.strunchangedvalue
+Unknown initial value
+mainunit2.strunknowninitialvalue
+Compare to first scan
+mainunit2.strcomparetofirstscan
+Compare to last scan
+mainunit2.strcomparetolastscan
+Compare to saved scan
+mainunit2.strcomparetosavedscan
+Use the game/application for a while and make the address you're watching change. The list will be filled with addresses that contain code that change the watched address.
+mainunit2.rsusethegameapplicationforawhile
+Select an item from the list for a small description
+mainunit2.rsselectanitemfromthelistforasmalldescription
+No hotkey
+mainunit2.rsnohotkey
+Enable/Disable speedhack.
+mainunit2.rsenabledisablespeedhack
+\Software\MyCheat
+Saved Stacksize
+Show processlist in mainmenu
+Ask if table has lua script
+Always run script
+All includes custom types
+Show all windows on taskbar
+Undo
+ScanThreadpriority
+hotkey poll interval
+Time between hotkeypress
+Speedhack 1 speed
+Speedhack 2 speed
+Speedhack 3 speed
+Speedhack 4 speed
+Speedhack 5 speed
+Increase Speedhack delta
+Decrease Speedhack delta
+Show MyCheat Hotkey
+Pause process Hotkey
+Toggle speedhack Hotkey
+Set Speedhack speed 1 Hotkey
+Set Speedhack speed 2 Hotkey
+Set Speedhack speed 3 Hotkey
+Set Speedhack speed 4 Hotkey
+Set Speedhack speed 5 Hotkey
+Increase Speedhack speed
+Decrease Speedhack speed
+Binary Hotkey
+Byte Hotkey
+2 Bytes Hotkey
+4 Bytes Hotkey
+8 Bytes Hotkey
+Float Hotkey
+Double Hotkey
+Text Hotkey
+Array of Byte Hotkey
+New Scan Hotkey
+New Scan-Exact Value
+Unknown Initial Value Hotkey
+Next Scan-Exact Value
+Increased Value Hotkey
+Decreased Value Hotkey
+Changed Value Hotkey
+Unchanged Value Hotkey
+Same as first scan Hotkey
+Undo Last scan Hotkey
+Cancel scan Hotkey
+Debug->Run Hotkey
+ (No hotkey)
+Buffersize
+Center on popup
+Update interval
+Freeze interval
+Show values as signed
+AutoAttach
+Always AutoAttach
+Replace incomplete opcodes with NOPS
+Override existing bp's
+Ask for replace with NOPS
+Fastscan on by default
+Use Anti-debugdetection
+Handle unhandled breakpoints
+Simple copy/paste
+Hardware breakpoints
+Software breakpoints
+Exception breakpoints
+Update Foundaddress list
+Update Foundaddress list Interval
+Save window positions
+Show main menu
+Get process icons
+Only show processes with icon
+Pointer appending
+skip PAGE_NOCACHE
+Hide all windows
+Really hide all windows
+MEM_PRIVATE
+MEM_IMAGE
+MEM_MAPPED
+Can Step Kernelcode
+Use dbk32 QueryMemoryRegionEx
+Use dbk32 ReadWriteProcessMemory
+Use dbk32 OpenProcess
+Unrandomizer: default value
+Unrandomizer: incremental
+ModuleList as Denylist
+Global Denylist
+ModuleListSize
+Module List
+Don't use tempdir
+Scanfolder
+Use Processwatcher
+Use VEH Debugger
+VEH Real context on thread creation event
+Use Windows Debugger
+Use Kernel Debugger
+Wait After Gui Update
+Use Global Debug Routines
+Show tools menu
+\Software\MyCheat\Tools
+\Software\MyCheat\Plugins32
+TframeHotkeyConfig
+ListBox1Click
+Edit1KeyDown
+Button3Click
+Panel1h
+Label1l
+ListBox1p
+Panel2t
+Label2x
+Edit1|
+Button3
+Panel3
+Label52
+edtSHSpeed
+Panel4
+Label3
+Edit4
+Panel5
+edtKeypollInterval
+edtHotkeyDelay
+Label4
+Label5
+%.2f
+TPF0
+TframeHotkeyConfig
+frameHotkeyConfig
+Left
+Height
+Width
+ClientHeight
+ClientWidth
+TabOrder
+DesignLeft
+	DesignTop
+TPanel
+Panel1
+Left
+Height
+Width
+Align
+alClient
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TLabel
+Label1
+Left
+Height
+Width
+Align
+alTop
+Caption
+	Functions
+ParentColor
+TListBox
+ListBox1
+Left
+Height
+Width
+Align
+alClient
+ExtendedSelect
+Items.Strings
+Popup/Hide cheat engine
+Pause the selected process
+Toggle the speedhack
+Speedhack speed 1
+Speedhack speed 2
+Speedhack speed 3
+Speedhack speed 4
+Speedhack speed 5
+Speedhack speed +
+Speedhack speed -
+Change type to Binary
+Change type to Byte
+Change type to 2 Bytes
+Change type to 4 Bytes
+Change type to 8 Bytes
+Change type to Float
+Change type to Double
+Change type to Text
+Change type to Array of byte
+New Scan
+New Scan-Exact Value
+New Scan-Unknown Initial Value
+Next Scan-Exact Value
+Next Scan-Increased Value
+Next Scan-Decreased Value
+Next Scan-Changed Value
+Next Scan-Unchanged Value
+&Toggle between first/last scan compare
+Undo last scan
+Cancel the current scan
+Debug->Run
+ItemHeight
+OnClick
+ListBox1Click
+TabOrder
+TPanel
+Panel2
+Left
+Height
+Width
+Align
+alRight
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TLabel
+Label2
+Left
+Height
+Width
+Caption
+Hotkey
+ParentColor
+TEdit
+Edit1
+Left
+Height
+Width
+	OnKeyDown
+Edit1KeyDown
+ReadOnly	
+TabOrder
+TButton
+Button3
+Left
+Height
+Width
+Caption
+Clear
+OnClick
+Button3Click
+TabOrder
+TPanel
+Panel3
+Left
+Height
+Width
+Anchors
+akTop
+akLeft
+akRight
+akBottom
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+Visible
+TLabel
+Label52
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+Caption
+Speed
+ParentColor
+TEdit
+edtSHSpeed
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+TabOrder
+Text
+TPanel
+Panel4
+Left
+Height
+Width
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+Visible
+TLabel
+Label3
+Left
+Height
+Width
+Caption
+Speed delta
+ParentColor
+TEdit
+Edit4
+Left
+Height
+Width
+TabOrder
+Text
+TPanel
+Panel5
+Left
+Height
+Width
+Align
+alTop
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TLabel
+Label4
+Left
+Height
+Width
+Caption
+Keypoll interval (milliseconds)
+ParentColor
+TLabel
+Label5
+Left
+Height
+Width
+Caption
+"Delay between reactivating hotkeys
+ParentColor
+TEdit
+edtKeypollInterval
+Left
+Height
+Hint
+4Determines how quickly a hotkey keypress is detected
+Width
+ParentShowHint
+ShowHint	
+TabOrder
+Text
+TEdit
+edtHotkeyDelay
+Left
+Height
+Hint
+1Lets you specify how quickly a hotkey is repeated
+Width
+TabOrder
+Text
+FORMDATA
+TframeHotkeyConfig
+TframeHotkeyConfig
+frameHotkeyConfigUnit
+Tpathspecifier
+TformSettings
+btnOKClick
+btnCancelClick
+cbAskIfTableHasLuascriptChange
+cbDontusetempdirChange
+cbDebuggerInterfaceChange
+cbKernelQueryMemoryRegionChange
+CheckBox1Change
+EditBufSizeKeyPress
+Default1Click
+FormDestroy
+FormShow
+cbShowDisassemblerClick
+LoadButtonClick
+pcSettingChange
+rbInt3AsBreakpointChange
+replacewithnopsClick
+CheckBox1Click
+CheckBox2Click
+cbUpdatefoundListClick
+AboutLabelClick
+cbHideAllWindowsClick
+btnExcludeProcessesClick
+FormCreate
+cbKernelQueryMemoryRegionClick
+	FormClose
+Button4Click
+Button5Click
+tvMenuSelectionChange
+Panel6Resize
+cbProcessIconsClick
+tvMenuSelectionCollapsing
+btnSetToolShortcutClick
+cbShowToolsClick
+btnToolNewClick
+lvToolsClick
+edtApplicationToolChange
+btnToolDeleteClick
+edtToolsNameChange
+OpenButtonClick
+cbDontusetempdirh
+cbGlobalDebugl
+cbKDebugp
+cbShowallWindowst
+cbAskIfTableHasLuascriptx
+cbAlwaysRunScript|
+cbUseVEHDebugger
+cbUseWindowsDebugger
+	CheckBox1
+cbCanStepKernelcode
+cbAllIncludesCustomType
+cbShowProcesslist
+cbOverrideExistingBPs
+ cbVEHRealContextOnThreadCreation
+cbWaitAfterGuiUpdate
+defaultbuffer
+Default1
+edtStacksize
+edtTempScanFolder
+	GroupBox2
+	GroupBox4
+Label2
+lblThreadFollowing
+Label4
+Label6
+Label7
+LoadButton
+Panel1
+pcDebugConfig
+	pnlConfig
+rbVEHHookThreadCreation
+rbVEHUseProcessWatcher
+rbVEHPollThread
+rbPageExceptions
+rbDebugAsBreakpoint
+rbgDebuggerInterface
+rbInt3AsBreakpoint
+SelectDirectoryDialog1
+tsKernelDebugConfig
+tsVEHDebugConfig
+tsWindowsDebuggerConfig
+tvMenuSelection
+	pcSetting
+GeneralSettings
+ScanSettings
+Label11
+Label12 
+Label13$
+Label14(
+Label18,
+Label190
+Label234
+Label248
+cbShowUndo<
+cbCenterOnPopup@
+EditUpdateIntervalD
+EditFreezeIntervalH
+	GroupBox1L
+cbShowAsSignedP
+cbsimplecopypasteT
+cbUpdatefoundListX
+editUpdatefoundInterval\
+cbHideAllWindows`
+btnExcludeProcessesd
+EditAutoAttachh
+cbAlwaysAutoAttachl
+cbSaveWindowPosp
+Label3t
+Label1x
+Label15|
+Label21
+combothreadpriority
+cbFastscan
+cbSkip_PAGE_NOCACHE
+cbMemImage
+cbMemMapped
+cbMemPrivate
+EditBufsize
+Plugins
+CodeFinder
+	Assembler
+cbHandleBreakpoints
+replacewithnops
+askforreplacewithnops
+Extra
+TauntOldOsUser
+	GroupBox3
+cbKernelQueryMemoryRegion
+cbKernelReadWriteProcessMemory
+cbKernelOpenProcess
+cbProcessWatcher
+	CheckBox3
+	CheckBox4
+	tsHotkeys
+OpenDialog1
+Unrandomizer
+Label5
+edtDefault
+cbIncremental
+Panel6
+AboutLabel
+	btnCancel
+btnOK
+frameHotkeyConfig
+cbProcessIcons
+cbProcessIconsOnly
+tsTools
+Panel2
+cbShowTools
+Panel3
+edtApplicationTool 
+btnSetToolShortcut$
+Panel5(
+Panel4,
+btnToolNew0
+btnToolDelete4
+lvTools8
+lblApplicationTool<
+lblShortcut@
+lblShortcutTextD
+lblToolsNameH
+edtToolsNameL
+OpenButtonP
+OpenDialog2T
+cbShowMainMenuX
+cbOldPointerAddMethod\
+Panel7`
+Button5d
+Button4h
+Panel8l
+Label22p
+clbPlugins
+FORMSETTINGSUNIT
+You haven't selected any memory type. This will result in MyCheat finding NO memory! Are you stupid?
+formsettingsunit.rsyouhaventselectedanymemorytypethiswillresultinchea
+%s is not a valid interval
+formsettingsunit.rsisnotavalidinterval
+The scanbuffer size has to be greater than 0
+formsettingsunit.rsthescanbuffersizehastobegreaterthan0
+the value for the keypoll interval (%s is invalid
+formsettingsunit.rsthevalueforthekeypollintervalisinvalid
+the value for the wait between hotkey presses (%s is invalid
+formsettingsunit.rsthevalueforthewaitbetweenhotkeypressesisinvalid
+Please boot with unsigned drivers allowed(F8 during boot), or sign the driver yourself
+formsettingsunit.rspleasebootwithunsigneddriversallowedf8duringbootor
+(Requires DBVM)
+formsettingsunit.rsrequiresdbvm
+This plugin is already loaded
+formsettingsunit.rsthispluginisalreadyloaded
+Idle
+formsettingsunit.rsidle
+Lowest
+formsettingsunit.rslowest
+Lower
+formsettingsunit.rslower
+Normal
+formsettingsunit.rsnormal
+Higher
+formsettingsunit.rshigher
+Highest
+formsettingsunit.rshighest
+TimeCritical
+formsettingsunit.rstimecritical
+General Settings
+formsettingsunit.rsgeneralsettings
+Tools
+formsettingsunit.rstools
+Hotkeys
+formsettingsunit.rshotkeys
+Unrandomizer
+formsettingsunit.rsunrandomizer
+Scan Settings
+formsettingsunit.rsscansettings
+Plugins
+formsettingsunit.rsplugins
+Debugger Options
+formsettingsunit.rsdebuggeroptions
+Extra
+formsettingsunit.rsextra
+No Name
+formsettingsunit.rsnoname
+Popup/Hide cheat engine
+formsettingsunit.rspopuphidecheatengine
+Pause the selected process
+formsettingsunit.rspausetheselectedprocess
+Toggle the speedhack
+formsettingsunit.rstogglethespeedhack
+Speedhack speed
+formsettingsunit.rsspeedhackspeed
+Change type to
+formsettingsunit.rschangetypeto
+Binary
+formsettingsunit.rsbinary
+Byte
+formsettingsunit.rsbyte
+2 Bytes
+formsettingsunit.rs2bytes
+4 Bytes
+formsettingsunit.rs4bytes
+8 Bytes
+formsettingsunit.rs8bytes
+Float
+formsettingsunit.rsfloat
+Double
+formsettingsunit.rsdouble
+Text
+formsettingsunit.rstext
+Array of byte
+formsettingsunit.rsarrayofbyte
+Next Scan
+formsettingsunit.rsnextscan
+Toggle between first/last scan compare
+formsettingsunit.rstogglebetweenfirstlastscancompare
+Undo last scan
+formsettingsunit.rsundolastscan
+Cancel the current scan
+formsettingsunit.rscancelthecurrentscan
+Debug->Run
+formsettingsunit.rsdebugrun
+Unknown Initial Value
+formsettingsunit.rsunknowninitialvalue
+Increased Value
+formsettingsunit.rsincreasedvalue
+Decreased Value
+formsettingsunit.rsdecreasedvalue
+Changed Value
+formsettingsunit.rschangedvalue
+Unchanged Value
+formsettingsunit.rsunchangedvalue
+\Software\MyCheat
+Saved Stacksize
+Show processlist in mainmenu
+Undo
+ScanThreadpriority
+Show all windows on taskbar
+All includes custom types
+Can Step Kernelcode
+Buffersize
+Center on popup
+Update interval
+Freeze interval
+Show values as signed
+Replace incomplete opcodes with NOPS
+Ask for replace with NOPS
+Use Anti-debugdetection
+Override existing bp's
+Handle unhandled breakpoints
+Fastscan on by default
+Hardware breakpoints
+Software breakpoints
+Exception breakpoints
+Update Foundaddress list
+Update Foundaddress list Interval
+Simple copy/paste
+AutoAttach
+Always AutoAttach
+Ask if table has lua script
+Always run script
+Save window positions
+Show main menu
+Get process icons
+Only show processes with icon
+Pointer appending
+skip PAGE_NOCACHE
+Hide all windows
+Really hide all windows
+Do not hide 
+MEM_PRIVATE
+MEM_IMAGE
+MEM_MAPPED
+Module List
+modulelistsize
+Global Denylist
+ModuleList as Denylist
+hotkey poll interval
+Time between hotkeypress
+Show MyCheat Hotkey
+Pause process Hotkey
+Toggle speedhack Hotkey
+Speedhack 1 speed
+Speedhack 2 speed
+Speedhack 3 speed
+Speedhack 4 speed
+Speedhack 5 speed
+Set Speedhack speed 1 Hotkey
+Set Speedhack speed 2 Hotkey
+Set Speedhack speed 3 Hotkey
+Set Speedhack speed 4 Hotkey
+Set Speedhack speed 5 Hotkey
+Increase Speedhack speed
+Increase Speedhack delta
+Decrease Speedhack speed
+Decrease Speedhack delta
+Binary Hotkey
+Byte Hotkey
+2 Bytes Hotkey
+4 Bytes Hotkey
+8 Bytes Hotkey
+Float Hotkey
+Double Hotkey
+Text Hotkey
+Array of Byte Hotkey
+New Scan Hotkey
+New Scan-Exact Value
+Unknown Initial Value Hotkey
+Next Scan-Exact Value
+Increased Value Hotkey
+Decreased Value Hotkey
+Changed Value Hotkey
+Unchanged Value Hotkey
+Same as first scan Hotkey
+Undo Last scan Hotkey
+Cancel scan Hotkey
+Debug->Run Hotkey
+Don't use tempdir
+Scanfolder
+Use dbk32 QueryMemoryRegionEx
+Use dbk32 ReadWriteProcessMemory
+Use dbk32 OpenProcess
+Use Processwatcher
+Use VEH Debugger
+VEH Real context on thread creation event
+Use Windows Debugger
+Use Kernel Debugger
+Use Global Debug Routines
+Wait After Gui Update
+Unrandomizer: default value
+Unrandomizer: incremental
+Show tools menu
+\Software\MyCheat\Tools
+%.8x A
+%.8x B
+%.8x C
+\Software\MyCheat\Plugins
+TPF0
+TformSettings
+formSettings
+Left
+Height
+Width
+BorderIcons
+biSystemMenu
+Caption
+MyCheat settings
+ClientHeight
+ClientWidth
+Font.Height
+	Font.Name
+MS Sans Serif
+OnClose
+	FormClose
+OnCreate
+FormCreate	OnDestroy
+FormDestroy
+OnShow
+FormShow
+Position
+poMainFormCenter
+LCLVersion
+TPanel	pnlConfig
+Left
+Height
+Width
+Align
+alClient
+ClientHeight
+ClientWidth
+TabOrder
+	TTreeView
+tvMenuSelection
+Left
+Height
+Width
+Align
+alLeft
+DefaultItemHeight
+HideSelection
+Indent
+ReadOnly	
+RightClickSelect	
+ScrollBars
+ssVertical
+ShowRoot
+TabOrder
+OnChange
+tvMenuSelectionChange
+OnCollapsing
+tvMenuSelectionCollapsing
+Options
+tvoAutoItemHeight
+tvoKeepCollapsedNodes
+tvoReadOnly
+tvoRightClickSelect
+tvoShowButtons
+tvoShowLines
+tvoToolTips
+Items.Data
+General Settings
+Tools
+Hotkeys
+Unrandomizer
+Scan Settings
+Plugins
+Debugger Options
+Extra
+TPageControl	pcSetting
+Left
+Height
+Width
+ActivePage
+	Assembler
+Align
+alClient
+TabIndex
+TabOrder
+OnChange
+pcSettingChange
+	TTabSheet
+GeneralSettings
+Caption
+General Settings
+ClientHeight
+ClientWidth
+TLabel
+Label11
+Left
+Height
+Width
+Caption
+ParentColor
+TLabel
+Label12
+Left
+Height
+Width
+Caption
+ParentColor
+TLabel
+Label13
+Left
+Height
+Width
+Caption
+Update interval
+ParentColor
+TLabel
+Label14
+Left
+Height
+Width
+Caption
+Freeze interval
+ParentColor
+TLabel
+Label18
+Left
+Height
+Width
+Caption
+"Found address list update interval
+ParentColor
+TLabel
+Label19
+Left
+Height
+Width
+Caption
+ParentColor
+TLabel
+Label23
+Left
+Height
+Width
+Caption
+'Automatically attach to processes named
+ParentColor
+TLabel
+Label24
+Left
+Height
+Width
+Caption
+(Seperate entries with ; )
+ParentColor
+	TCheckBox
+cbShowUndo
+Left
+Height
+Width
+Caption
+Show undo button
+Checked	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbCenterOnPopup
+Left
+Height
+Width
+Caption
+%Center MyCheat when bringing to front
+Checked	
+State
+	cbChecked
+TabOrder
+TEdit
+EditUpdateInterval
+Left
+Height
+Hint
+YThe number of milliseconds that MyCheat will wait before refreshing the list of addresses
+Width
+ParentShowHint
+ShowHint	
+TabOrder
+Text
+TEdit
+EditFreezeInterval
+Left
+Height
+Hint
+pThe number of milliseconds that MyCheat will wait before resetting the frozen addresses to their original value.
+Width
+ParentShowHint
+ShowHint	
+TabOrder
+Text
+	TGroupBox	GroupBox1
+Left
+Height
+Width
+Caption
+Address list specific
+ClientHeight
+ClientWidth
+TabOrder
+	TCheckBox
+cbShowAsSigned
+Left
+Height
+Width
+Caption
+!Show values as if they are signed
+TabOrder
+	TCheckBox
+cbsimplecopypaste
+Left
+Height
+Width
+Caption
+Simple paste
+TabOrder
+	TChe
+ckBox
+cbUpdatefoundList
+Left
+Height
+Width
+Caption
+6Update the list of found addresses even after scanning
+Checked	
+OnClick
+cbUpdatefoundListClick
+State
+	cbChecked
+TabOrder
+TEdit
+editUpdatefoundInterval
+Left
+Height
+Hint
+YThe number of milliseconds that MyCheat will wait before refreshing the list of addresses
+Width
+ParentShowHint
+ShowHint	
+TabOrder
+Text
+1000
+	TCheckBox
+cbHideAllWindows
+Left
+Height
+Width
+Caption
+AHide some/all windows instead of trying to bring MyCheat to front
+Checked	
+OnClick
+cbHideAllWindowsClick
+State
+	cbChecked
+TabOrder
+TButton
+btnExcludeProcesses
+Left
+Height
+Width
+Caption
+More...
+OnClick
+btnExcludeProcessesClick
+TabOrder
+TEdit
+EditAutoAttach
+Left
+Height
+Hint
+qType the name of the process you want to automatically open. Note: Only works when NO process has been opened yet
+Width
+TabOrder
+	TCheckBox
+cbAlwaysAutoAttach
+Left
+Height
+Width
+Caption
+>Even autoattach when another process has already been selected
+TabOrder
+	TCheckBox
+cbSaveWindowPos
+Left
+Height
+Width
+Caption
+Save window positions
+Checked	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbProcessIcons
+Left
+Height
+Width
+Caption
+!Get process icons for processlist
+Checked	
+OnClick
+cbProcessIconsClick
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbProcessIconsOnly
+Left
+Height
+Width
+Caption
+ Only show processes with an icon
+TabOrder
+	TCheckBox
+cbShowMainMenu
+Left
+Height
+Width
+Caption
+Show main menu
+Checked	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbOldPointerAddMethod
+Left
+Height
+Width
+Caption
+4Pointer adding: Append pointerline instead of insert
+TabOrder
+	TCheckBox
+cbShowallWindows
+Left
+Height
+Width
+Caption
+Show all windows in the taskbar
+TabOrder
+	TCheckBox
+cbAskIfTableHasLuascript
+Left
+Height
+Width
+Caption
+"Ask to run lua scripts from tables
+Checked	
+OnChange
+cbAskIfTableHasLuascriptChange
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbAlwaysRunScript
+Left
+Height
+Width
+Caption
+"Always run lua scripts from tables
+Enabled
+TabOrder
+	TCheckBox
+cbShowProcesslist
+Left
+Height
+Width
+Caption
+Show process list in main menu
+TabOrder
+	TTabSheet	tsHotkeys
+Caption
+Hotkeys
+ClientHeight
+ClientWidth
+ImageIndex
+TframeHotkeyConfig
+frameHotkeyConfig
+Height
+Width
+Align
+alClient
+ClientHeight
+ClientWidth
+DesignLeft
+	DesignTop
+TPanel
+Panel1
+Height
+Width
+ClientHeight
+ClientWidth
+TLabel
+Label1
+Height
+Width
+TListBox
+ListBox1
+Height
+Width
+ItemHeight
+TPanel
+Panel2
+Left
+Height
+Width
+ClientHeight
+ClientWidth
+TLabel
+Label2
+Left
+Height
+Width
+TEdit
+Edit1
+Left
+Height
+Width
+TButton
+Button3
+Left
+Height
+Width
+TPanel
+Panel3
+Left
+Height
+Width
+ClientHeight
+ClientWidth
+TLabel
+Label52
+Left
+Height
+Width
+TEdit
+edtSHSpeed
+Left
+Height
+Width
+TPanel
+Panel4
+Left
+Height
+Width
+ClientHeight
+ClientWidth
+TLabel
+Label3
+Left
+Height
+Width
+TEdit
+Edit4
+Height
+Width
+TPanel
+Panel5
+Height
+Width
+ClientHeight
+ClientWidth
+TLabel
+Label4
+Left
+Height
+Width
+TLabel
+Label5
+Left
+Height
+Width
+TEdit
+edtKeypollInterval
+Height
+Width
+TEdit
+edtHotkeyDelay
+Height
+Width
+	TTabSheet
+Unrandomizer
+Caption
+Unrandomizer
+ClientHeight
+ClientWidth
+ImageIndex
+TLabel
+Label5
+Left
+Height
+Width
+Caption
+Default return value
+ParentColor
+TEdit
+edtDefault
+Left
+Height
+Width
+TabOrder
+Text
+	TCheckBox
+cbIncremental
+Left
+Height
+Width
+Caption
+Incremental value
+TabOrder
+	TTabSheet
+ScanSettings
+Caption
+Scan Settings
+ClientHeight
+ClientWidth
+ImageIndex
+TLabel
+Label3
+Left
+Height
+Width
+Caption
+Thread priority
+ParentColor
+TLabel
+Label1
+Left
+Height
+Width
+Caption
+Size of scanbuffer (KB) :
+ParentColor
+TLabel
+Label15
+Left
+Height
+Width
+Caption
+(Can affect scan speed a lot)
+ParentColor
+TLabel
+Label21
+Left
+Height
+Width
+Caption
+'Scan the following memory region types:
+ParentColor
+	TComboBox
+combothreadpriority
+Left
+Height
+Width
+ItemHeight
+	ItemIndex
+Items.Strings
+Idle
+Lowest
+Lower
+Normal
+Higher
+Highest
+TimeCritical
+	PopupMenu
+MainForm.emptypopup
+TabOrder
+Text
+Higher
+	TCheckBox
+cbFastscan
+Left
+Height
+Width
+Caption
+Fast scan on by default
+Checked	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbSkip_PAGE_NOCACHE
+Left
+Height
+Hint
+fSome systems crash when trying to read memory with this protection. If that happens check this option.
+Width
+Caption
+<Don't scan memory that is protected with the No Cache option
+ParentShowHint
+ShowHint	
+TabOrder
+	TCheckBox
+cbMemImage
+Left
+Height
+Width
+Caption
+AMEM_IMAGE:Memory that is mapped into the view of an image section
+Checked	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbMemMapped
+Left
+Height
+Width
+Caption
+fMEM_MAPPED:Memory that is mapped into the view of a section. (E.g:File mapping, emulator memory, slow)
+TabOrder
+	TCheckBox
+cbMemPrivate
+Left
+Height
+Width
+Caption
+#MEM_PRIVATE:Memory that is private.
+Checked	
+State
+	cbChecked
+TabOrder
+TEdit
+EditBufsize
+Left
+Height
+Width
+TabOrder
+Text
+1024
+	TCheckBox
+cbDontusetempdir
+Left
+Height
+Width
+Caption
+:Don't store the temporary scanfiles in the windows tempdir
+OnChange
+cbDontusetempdirChange
+TabOrder
+TEdit
+edtTempScanFolder
+Left
+Height
+Width
+Enabled
+TabOrder
+TLabel
+Label2
+Left
+Height
+Width
+Caption
++Store the temporary scanfiles here instead:
+Enabled
+ParentColor
+TSpeedButton
+LoadButton
+Left
+Height
+Width
+Enabled
+Glyph.Data
+OnClick
+LoadButtonClick
+ShowHint	
+ParentShowHint
+	TCheckBox
+cbAllIncludesCustomType
+Left
+Height
+Width
+Caption
+8Custom types are included with the ALL scan variabletype
+Checked	
+State
+	cbChecked
+TabOrder
+	TTabSheet
+Plugins
+Caption
+Plugins
+ClientHeight
+ClientWidth
+ImageIndex
+TPanel
+Panel7
+Left
+Height
+Width
+Align
+alRight
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TButton
+Button5
+Left
+Height
+Width
+Caption
+Delete
+OnClick
+Button5Click
+TabOrder
+TButton
+Button4
+Left
+Height
+Width
+Caption
+Add new
+OnClick
+Button4Click
+TabOrder
+TPanel
+Panel8
+Left
+Height
+Width
+Align
+alClient
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TLabel
+Label22
+Left
+Height
+Width
+Align
+alTop
+Caption
+$The following plugins are available:
+ParentColor
+TCheckListBox
+clbPlugins
+Left
+Height
+Width
+Align
+alClient
+ItemHeight
+TabOrder
+	TTabSheet	Assembler
+Caption
+Debugger Options
+ClientHeight
+ClientWidth
+ImageIndex
+	TCheckBox
+replacewithnops
+Left
+Height
+Hint
+If you type in a opcode and it is smaller than the opcode you replaced, it will fill the missing bytes with NOP instructions. If the opcode is longer it will replace the opcode(s) that have been overwritten with NOP's
+Width
+Caption
+$Replace incomplete opcodes with nops
+Checked	
+OnClick
+replacewithnopsClick
+ParentShowHint
+ShowHint	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+askforreplacewithnops
+Left
+Height
+Width
+Caption
+Ask for rep
