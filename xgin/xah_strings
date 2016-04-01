@@ -1,0 +1,697 @@
+ight
+Width
+Anchors
+akTop
+akRight
+Caption
+Memory Scan Options
+ClientHeight
+ClientWidth
+Color
+	clBtnFace
+Enabled
+ParentColor
+TabOrder
+TPanel
+Panel2
+Left
+Height
+Width
+Align
+alTop
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+	PopupMenu
+pmScanRegion
+TabOrder
+	TCheckBox
+cbCopyOnWrite
+Left
+Height
+Hint
+Unchecked:
+Do not scan copy-on-write memory
+Checked:
+Only scan copy-on-write memory
+Gray:
+Don't care if it's copy-on-write or not
+Width
+AllowGrayed	
+Caption
+CopyOnWrite
+ParentShowHint
+	PopupMenu
+pmScanRegion
+ShowHint	
+TabOrder
+	TCheckBox
+cbWritable
+Left
+Height
+Hint
+Unchecked:
+Do not scan writable memory
+Checked:
+Only scan writable memory
+Gray:
+Don't care if it's writable memory or not
+Width
+AllowGrayed	
+Caption
+Writable
+Checked	
+ParentShowHint
+	PopupMenu
+pmScanRegion
+ShowHint	
+State
+	cbChecked
+TabOrder
+	TCheckBox
+cbExecutable
+Left
+Height
+Hint
+Unchecked:
+Do not scan executable memory
+Checked:
+Only scan executable memory
+Gray:
+Don't care if it's executable or not
+Width
+AllowGrayed	
+Caption
+Executable
+ParentShowHint
+	PopupMenu
+pmScanRegion
+ShowHint	
+State
+cbGrayed
+TabOrder
+TPanel
+Panel3
+Left
+Height
+Width
+Align
+alTop
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TMemo
+FromAddress
+Left
+Height
+Width
+	Alignment
+taRightJustify
+Enabled
+Font.CharSet
+ANSI_CHARSET
+Font.Height
+	Font.Name
+Courier
+Font.Pitch
+fpFixed
+Font.Quality
+fqDraft
+Lines.Strings
+00000000
+	MaxLength
+ParentFont
+	PopupMenu
+pmResetRange
+TabOrder
+WantReturns
+WordWrap
+TMemo	ToAddress
+Left
+Height
+Width
+	Alignment
+taRightJustify
+Enabled
+Font.CharSet
+ANSI_CHARSET
+Font.Height
+	Font.Name
+Courier
+Font.Pitch
+fpFixed
+Font.Quality
+fqDraft
+Lines.Strings
+7FFFFFFF
+	MaxLength
+ParentFont
+	PopupMenu
+pmResetRange
+TabOrder
+WantReturns
+WordWrap
+TLabel
+Label2
+Left
+Height
+Width
+Caption
+Stop
+Enabled
+ParentColor
+	PopupMenu
+pmResetRange
+TLabel
+Label1
+Left
+Height
+Width
+Caption
+Start
+Enabled
+ParentColor
+	PopupMenu
+pmResetRange
+TPanel
+Panel6
+Left
+Height
+Width
+Align
+alClient
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+	TCheckBox
+cbFastScan
+Left
+Height
+Hint
+Speeds up the scan and decreases useless results by skipping unaligned memory, or only scans addresses ending with specific digits
+Width
+Caption
+	Fast Scan
+Checked	
+Enabled
+Font.Height
+	Font.Name
+MS Sans Serif
+OnChange
+cbFastScanChange
+ParentFont
+ParentShowHint
+ShowHint	
+State
+	cbChecked
+TabOrder
+TEdit
+edtAlignment
+Left
+Height
+Width
+Enabled
+OnKeyPress
+edtAlignmentKeyPress
+TabOrder
+Text
+	TCheckBox
+cbPauseWhileScanning
+Left
+Height
+Width
+Caption
+Pause the game while scanning
+Enabled
+OnClick
+cbPauseWhileScanningClick
+TabOrder
+TRadioButton
+rbfsmLastDigts
+Left
+Height
+Hint
+cWhen set and fastscan is enabled will only scan and return addresses that end with the given digits
+Width
+Caption
+Last Digits
+OnChange
+rbFsmAlignedChange
+ParentShowHint
+ShowHint	
+TabOrder
+TRadioButton
+rbFsmAligned
+Left
+Height
+Hint
+cWhen set and fastscan is enabled will scan the memory address if it is dividable by the given value
+Width
+Caption
+	Alignment
+Checked	
+OnChange
+rbFsmAlignedChange
+ParentShowHint
+ShowHint	
+TabOrder
+TabStop	
+TButton
+btnNextScan
+AnchorSideLeft.Control
+btnNewScan
+AnchorSideLeft.Side
+	asrBottom
+AnchorSideRight.Control
+btnNewScan
+Left
+Height
+Width
+BorderSpacing.Left
+Caption
+	Next Scan
+Enabled
+Font.Height
+	Font.Name
+MS Sans Serif
+OnClick
+btnNextScanClick
+ParentFont
+TabOrder
+	TComboBox
+ScanType
+Left
+Height
+Width
+HelpContext
+Anchors
+akTop
+akRight
+DropDownCount
+Enabled
+ItemHeight
+Items.Strings
+Exact value
+Increased value
+Increased value by ...
+Decreased value
+Decreased value by ...
+Value between
+Changed value
+Unchanged value
+Unknown initial value
+OnChange
+ScanTypeChange	OnKeyDown
+ScanTypeKeyDown
+Style
+csDropDownList
+TabOrder
+	TComboBox
+VarType
+Left
+Height
+Width
+HelpContext
+Anchors
+akTop
+akRight
+DropDownCount
+Enabled
+ItemHeight
+Items.Strings
+Binary
+Byte
+2 Bytes
+4 Bytes
+8 Bytes
+Float
+Double
+Text
+Array of Bytes
+All (Byte to Double)
+Grouped
+OnChange
+VarTypeChange
+OnDropDown
+VarTypeDropDown	PopupMenu
+pmValueType
+Style
+csDropDownList
+TabOrder
+TButton
+btnMemoryView
+Left
+Height
+Width
+Anchors
+akLeft
+akBottom
+Caption
+Memory View
+OnClick
+btnMemoryViewClick
+TabOrder
+TButton
+btnAddAddressManually
+AnchorSideRight.Control
+Panel5
+AnchorSideRight.Side
+	asrBottom
+Left
+Height
+Width
+Anchors
+akRight
+akBottom
+Caption
+Add Address Man
+ually
+OnClick
+btnAddAddressManuallyClick
+TabOrder
+TProgressBar
+ProgressBar1
+Left
+Height
+Hint
+,This shows how far MyCheat is with searching
+Width
+Anchors
+akTop
+akLeft
+akRight
+ParentShowHint
+ShowHint	
+Step
+TabOrder
+	TCheckBox
+cbHexadecimal
+Left
+Height
+Hint
+1When checked the value you type in is hexadecimal
+Width
+HelpContext
+Anchors
+akTop
+akRight
+Caption
+Enabled
+OnClick
+cbHexadecimalClick
+ParentShowHint
+ShowHint	
+TabOrder
+TButton
+UndoScan
+AnchorSideRight.Control
+	LogoPanel
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+BorderSpacing.Right
+Caption
+	Undo Scan
+Enabled
+OnClick
+UndoScanClick
+TabOrder
+TRadioButton
+rbBit
+AnchorSideLeft.Control
+rbDec
+Left
+Height
+Width
+HelpContext
+Anchors
+akTop
+akLeft
+akRight
+Caption
+Bits
+OnClick
+rbBitClick
+TabOrder
+Visible
+TRadioButton
+rbDec
+AnchorSideRight.Control
+	scanvalue
+Left
+Height
+Width
+HelpContext
+Anchors
+akTop
+akRight
+Caption
+Decimal
+OnClick
+rbDecClick
+TabOrder
+Visible
+TEdit	scanvalue
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+Enabled
+OnKeyPress
+ScanvalueoldKeyPress	PopupMenu
+ccpmenu
+TabOrder
+	TCheckBox
+cbCaseSensitive
+AnchorSideLeft.Control
+	cbUnicode
+Left
+Height
+Width
+Anchors
+akTop
+akLeft
+akRight
+Caption
+Case sensitive
+Checked	
+Enabled
+OnClick
+cbCaseSensitiveClick
+ParentShowHint
+ShowHint	
+State
+	cbChecked
+TabOrder
+Visible
+TPanel
+Panel7
+Left
+Height
+Width
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+Color
+clRed
+ParentColor
+TabOrder
+TSpeedButton
+sbOpenProcess
+Left
+Height
+Hint
+Select a process to open
+Width
+Glyph.Data
+xxc:
+XXXX
+qqqq
+``""""""""
+XXXXXXXXXX
+OnClick
+ShowProcessListButtonClick
+ShowHint	
+ParentShowHint
+TPanel
+pnlFloat
+AnchorSideRight.Control
+Panel5
+AnchorSideRight.Side
+	asrBottom
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+TabOrder
+TRadioButton
+Left
+Height
+Width
+AutoSize
+Caption
+	Truncated
+Checked	
+TabOrder
+TabStop	
+TRadioButton
+Left
+Height
+Width
+AutoSize
+Caption
+Rounded (default)
+TabOrder
+TRadioButton
+Left
+Height
+Width
+AutoSize
+Caption
+Rounded (extreme)
+TabOrder
+	TCheckBox
+cbUnrandomizer
+Left
+Height
+Width
+Anchors
+akTop
+akRight
+Caption
+Unrandomizer
+Enabled
+OnClick
+cbUnrandomizerClick
+OnMouseDown
+cbUnrandomizerMouseDown
+TabOrder
+TButton
+Button2
+Left
+Height
+Width
+Caption
+First Scan2
+OnClick
+Button2Click
+TabOrder
+Visible
+TButton
+Button4
+Left
+Height
+Width
+Caption
+Next scan 2
+OnClick
+Button4Click
+TabOrder
+Visible
+TPanel	LogoPanel
+Left
+Height
+Width
+Align
+alCustom
+Anchors
+akTop
+akRight
+BevelOuter
+bvNone
+ClientHeight
+ClientWidth
+FullRepaint
+TabOrder
+TImage
+Logo
+Cursor
+crHandPoint
+Left
+Height
+Width
+OnClick
+	LogoClick
+OnMouseDown
+LogoMouseDown
+Picture.Data
+TBitmapv&
+BMv&
+le&e\
+]V%tm4OI #
+_Y.$
+vm.4,
+[U d[
+wn.?7
+oi<$!
+kd-xq,vn2WQ
+kc(*%
+ZT%*$
+\T%"
+of'ga,
+~v:G>
+|u>=6
+y51'
+}+ND
+}!TF
+w#WL
+w'8-
+y!RF
+z#9/
+/*	zr,#
+uk+:1
+=YS$
+~1ti
+x*yp 
+x.GB
+|@\R
+g^%`X
+kd+PL#
+u(TI
+hc2a[2
+jc1nf*le,;8
+v0{n$wl(XQ
+v,C:
+}$oe
+)}p!aW
+}/lb&+$
+~t.mb
+,|n&@6
+}7oe%TK
+x8>6
+B>!~u2
+Eh`+6/
+x8NE
+yGXR-
+~>PG
+EB-=:,
+>h]#
+6}o-3+
+6wl3
+/ri 
+3ri&
+5tk(
+6ul#
+y)E=
+;6	60
+4.	)$
+NF!yo)
+D;	?9
+B;	@:

@@ -1,0 +1,192 @@
+ncproc.rsexecute
+Print Screen
+cefuncproc.rsprintscreen
+Insert
+cefuncproc.rsinsert
+Delete 
+cefuncproc.rsdeletekey
+Help
+cefuncproc.rshelp
+Left Windows key
+cefuncproc.rsleftwindowskey
+Right Windows key
+cefuncproc.rsrightwindowskey
+Applications key
+cefuncproc.rsapplicationskey
+numeric
+cefuncproc.rsnumeric
+Num Lock
+cefuncproc.rsnumlock
+Scroll Lock
+cefuncproc.rsscrolllock
+GetProcAddress not found
+cefuncproc.rsgetprocaddressnotfound
+LoadLibraryA not found
+cefuncproc.rsloadlibraryanotfound
+Failed to allocate memory
+cefuncproc.rsfailedtoallocatememory
+Failed to inject the dll loader
+cefuncproc.rsfailedtoinjectthedllloader
+Failed to execute the dll loader
+cefuncproc.rsfailedtoexecutethedllloader
+The injection thread took longer than 10 seconds to execute. Injection routine not freed
+cefuncproc.rstheinjectionthreadtooklongerthan10secondstoexecute
+Failed injecting the DLL
+cefuncproc.rsfailedinjectingthedll
+Failed executing the function of the dll
+cefuncproc.rsfailedexecutingthefunctionofthedll
+Unknown error during injection
+cefuncproc.rsunknownerrorduringinjection
+I can't get the process list. You are propably using windows NT. Use the window list instead!
+cefuncproc.rsicantgettheprocesslistyouarepropablyusingwindowsnt
+No kernel32.dll loaded
+cefuncproc.rsnokernel32dllloaded
+Invalid integer
+cefuncproc.rsinvalidinteger
+ Separator
+Kernel32.dll
+Kernel32!GetProcAddress
+GetProcAddress
+Kernel32!LoadLibraryA
+LoadLibraryA
+SUB RSP,#40
+MOV RCX,
+PUSH 
+CALL 
+ADD RSP,#40
+TEST RAX,RAX
+TEST EAX,EAX
+JNE 
+MOV EAX,2
+PUSH EAX
+MOV EAX,3
+CALL RAX
+CALL EAX
+MOV EAX,1
+Memory.TMP
+Addresses.TMP
+Memory.UNDO
+Addresses.UNDO
+\My Cheat Tables
+\Software\MyCheat
+Save window positions
+\Software\MyCheat\Window Positions
+ Position
+(INT)
+(DOUBLE)
+(FLOAT)
+Binary
+Array of byte
+Byte
+2 Bytes
+4 Bytes
+8 Bytes
+Float
+Double
+String
+Unicode String
+Pointer
+Auto Assembler Script
+Custom
+binary
+array of byte
+byte
+2 bytes
+4 bytes
+8 bytes
+float
+double
+string
+unicode string
+pointer
+custom
+grouped
+auto assembler script
+HEAP_NO_SERIALIZE+
+HEAP_GROWABLE+
+HEAP_GENERATE_EXCEPTIONS+
+HEAP_ZERO_MEMORY+
+HEAP_REALLOC_IN_PLACE_ONLY+
+HEAP_TAIL_CHECKING_ENABLED+
+HEAP_FREE_CHECKING_ENABLED+
+HEAP_DISABLE_COALESCE_ON_FREE+
+HEAP_CREATE_ALIGN_16+
+HEAP_CREATE_ENABLE_TRACING+
+HEAP_CREATE_ENABLE_EXECUTE+
+HEAP_PSEUDO_TAG_FLAG+
+kernel32.dll
+D:P(D;;;;;BG)
+	TScanType
+	stNewScan
+stFirstScan
+stNextScan
+CEFuncProc
+TVariableType
+vtByte
+vtWord
+vtDword
+vtQword
+vtSingle
+vtDouble
+vtString
+vtUnicodeString
+vtByteArray
+vtBinary
+vtAll
+vtAutoAssembler	vtPointer
+vtCustom	vtGrouped
+vtByteArrays
+CEFuncProc
+TaccessRight
+	arExecute
+arRead
+arWrite
+CEFuncProc
+TAccessRights
+TAddressArray
+CEFuncProc
+TBytes
+CEFuncProc
+TMemoryRegion
+TMemoryRegions
+CEFuncProc
+TBitAddress
+ToffsetList
+CEFuncProc
+tmoduledata
+CEFuncProc
+Tprocesslistitem
+CEFuncProc
+TCEAlloc
+TCEAllocArray
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+CEFuncProc
+TProcessHandler
+onOpenProcess
+TProcessHandlerD2
+ProcessHandlerUnit
+symexception
+TSymHandler\
+TSymbolloaderthread
+SYMBOLHANDLER
+Symbolloaderthread has crashed
+symbolhandler.rssymbolloaderthreadhascrashed
+You can't change this setting at the moment
+symbolhandler.rsyoucantchangethissettingatthemoment
+Please provide a bigger size
+symbolhandler.rspleaseprovideabiggersize
+Error allocating memory
