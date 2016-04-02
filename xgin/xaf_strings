@@ -1,0 +1,533 @@
+actOpenDissectStructureExecute
+actOpenLuaEngineExecute
+Address1Click
+cbFastScanChange
+cbSpeedhackChange
+Description1Click
+edtAlignmentKeyPress
+FormActivate
+FormDeactivate
+FormDropFiles
+#Foundlist3AdvancedCustomDrawSubItem
+Foundlist3CustomDrawSubItem
+Foundlist3Resize
+CreateGroupClick
+Foundlist3SelectItem
+Label3Click
+Label57Click
+lblcompareToSavedScanClick
+miCompressionClick
+miManualExpandCollapseClick
+miSaveClick	mi3dClick
+miChangeDisplayTypeClick
+miOpenFileClick
+miSetDropdownOptionsClick
+miSetupSnapshotKeysClick
+miShowAsSignedClick
+miShowCustomTypeDebugClick
+miShowPreviousValueClick
+miSnapshothandlerClick
+miTutorialClick
+miChangeValueClick
+MenuItem1Click
+miShowLuaScriptClick
+miAddAddressClick
+miAllowCollapseClick
+miHookD3DClick
+miLockMouseInGameClick
+miPresetAllClick
+miAddFileClick
+MenuItem9Click
+miPresetWritableClick
+miResyncFormsWithLuaClick
+miCreateLuaFormClick
+MenuItem7Click
+miSetCrosshairClick
+miTableClick
+miResetRangeClick
+miChangeColorClick
+miDefineNewCustomTypeLuaClick
+miDeleteCustomTypeClick
+miBindActivationClick
+miEditCustomTypeClick
+miHideChildrenClick
+miDefineNewCustomTypeClick
+miRecursiveSetValueClick
+miRenameTabClick
+miAddTabClick
+miCloseTabClick
+miFreezeNegativeClick
+miFreezePositiveClick
+miSaveScanresultsClick
+miShowAsBinaryClick
+miUndoValueClick
+miWireframeClick
+miZbufferClick
+miZeroTerminateClick
+ools1Click
+Panel1Click
+Panel5Resize
+pmTablistPopup
+pmValueTypePopup
+rbAllMemoryChange
+rbFsmAlignedChange
+Save1Click
+ScanTypeSelect
+ShowProcessListButtonClick
+btnNewScanClick
+btnNextScanClick
+btnMemoryViewClick
+FormCreate
+AddressKeyPress
+FoundListDblClick
+Browsethismemoryarrea1Click
+TrackBar1Change
+UpdateTimerTimer
+FreezeTimerTimer
+Browsethismemoryregion1Click
+Deletethisrecord1Click
+ScanvalueoldKeyPress
+Calculatenewvaluepart21Click
+btnAddAddressManuallyClick
+ScanTypeChange
+Value1Click
+VarTypeChange
+	LogoClick
+VarTypeDropDown
+WindowsClick
+FormCloseQuery
+SpeedButton2Click
+SpeedButton3Click
+Selectallitems1Click
+Label37Click
+Freezealladdresses2Click
+PopupMenu2Popup
+Unfreezealladdresses1Click
+foundlistpopupPopup
+Removeselectedaddresses1Click
+	FormClose
+CommentButtonClick
+CommentButtonMouseMove
+Copy1Click
+	Cut1Click
+Paste1Click
+Setbreakpoint1Click
+TopDisablerTimer
+advancedbuttonClick
+cbHexadecimalClick
+SetHotkey1Click
+UndoScanClick
+FormShow
+rbBitClick
+rbDecClick
+	Cut2Click
+Copy2Click
+Paste2Click
+ccpmenuPopup
+Splitter1CanResize
+Splitter1Moved
+SettingsClick
+cbCaseSensitiveClick
+LogoMouseDown
+btnShowRegionsClick$Findoutwhataccessesthisaddress1Click
+OpenProcesslist1Click
+CloseCheatEngine1Click
+Showashexadecimal1Click
+OpenMemorybrowser1Click
+cbFastScanClick
+rbAllMemoryClick
+cbPauseWhileScanningClick
+ProcessLabelDblClick
+ProcessLabelMouseDown
+cbUnrandomizerClick
+cbUnrandomizerMouseDown
+Foundlist3CustomDrawItem
+actOpenExecute
+actSaveExecute
+actAutoAssembleExecute
+Changescript1Click
+Forcerechecksymbols1Click
+Smarteditaddresses1Click
+Pointerscanforthisaddress1Click
+Label53Click
+Foundlist3Data
+UpdateFoundlisttimerTimer
+Foundlist3KeyDown
+Label59Click
+-Browsethismemoryregioninthedisassembler1Click
+AutoAttachTimerTimer
+Button2Click
+Button4Click
+ScanTypeKeyDown
+FormDestroy
+tbSpeedChange
+btnSetSpeedhack2Click
+cbSpeedhackClick
+Process1Click
+About1Click
+CreateProcess1Click
+Helpindex1Click	New1Click
+actLuaScriptExecute
+File1Click
+Label61Click
+actOpenProcesslistExecute
+Type1Click
+actOpenLuaEngineh
+actOpenDissectStructurel
+cbCopyOnWritep
+cbExecutablet
+cbFastScanx
+cbPauseWhileScanning|
+cbWritable
+ColorDialog1
+CreateGroup
+edtAlignment
+Foundlist3
+FromAddress
+ImageList2
+Label1
+Label2
+Label3
+lblcompareToSavedScan
+	MenuItem1
+MenuItem10
+MenuItem11
+miDisplayHex
+	miNetwork
+miCompression
+miManualExpandCollapse
+miSetDropdownOptions
+miSave
+miSnapshothandler
+miSetupSnapshotKeys
+miDisplayDefault
+miDisplayByte
+miDisplay2Byte
+miDisplay4Byte
+miDisplayFloat
+miDisplayDouble
+miDisplay8Byte
+MenuItem19
+miShowPreviousValue
+	MenuItem4
+miShowCustomTypeDebug
+miShowAsSigned
+miOpenFile
+	MenuItem8
+miTutorial
+miLockMouseInGame
+miChangeValue
+miAddAddress
+miAllowCollapse 
+miSetCrosshair$
+miWireframe(
+	miZbuffer,
+	miHookD3D0
+mi3d4
+miUndoValue8
+miPresetWritable<
+	MenuItem2@
+	MenuItem3D
+miShowLuaScriptH
+	MenuItem5L
+miPresetAllP
+	miAddFileT
+	MenuItem9X
+miResyncFormsWithLua\
+miCreateLuaForm`
+miLuaFormsSeperatord
+miTableh
+miSaveScanresultsl
+	MenuItem6p
+	MenuItem7t
+miShowAsBinaryx
+miZeroTerminate|
+miResetRange
+miChangeColor
+miGroupconfig
+miDefineNewCustomTypeLua
+miDeleteCustomType
+miHideChildren
+miBindActivation
+miRecursiveSetValue
+miDefineNewCustomType
+miEditCustomType
+miRenameTab
+miTablistSeperator
+miCloseTab
+miAddTab
+miFreezePositive
+miFreezeNegative
+Panel1
+Panel2
+Panel3
+Panel6
+	pmTablist
+pmValueType
+pmResetRange
+pmScanRegion
+rbFsmAligned
+rbfsmLastDigts
+SettingsButton
+	ToAddress
+UpdateTimer
+FreezeTimer
+PopupMenu2
+Deletethisrecord1
+Browsethismemoryregion1
+Calculatenewvaluepart21
+Freezealladdresses2
+sep1
+Copy1
+Paste1
+Cut1 
+Setbreakpoint1$
+SetHotkey1(
+Panel40
+advancedbutton4
+Label78
+CommentButton<
+Panel5@
+ProcessLabelD
+foundcountlabelH
+ScanTextL
+lblScanTypeP
+lblValueTypeT
+LoadButtonX
+SaveButton\
+Label6`
+SpeedButton2d
+SpeedButton3h
+gbScanOptionsl
+btnNewScanp
+btnNextScant
+ScanTypex
+VarType|
+btnMemoryView
+btnAddAddressManually
+ProgressBar1
+cbHexadecimal
+UndoScan
+rbBit
+rbDec
+	scanvalue
+foundlistpopup
+Browsethismemoryarrea1
+Removeselectedaddresses1
+Selectallitems1
+OpenDialog1
+SaveDialog1
+TopDisabler
+emptypopup
+ccpmenu
+Cut2
+Copy2
+Paste2
+	Splitter1
+cbCaseSensitive
+Findoutwhataccessesthisaddress1
+Showashexadecimal1
+Panel7
+sbOpenProcess
+Change1
+Description1
+Address1
+Type1
+Value1
+pnlFloat
+	cbUnicode
+cbUnrandomizer
+Changescript1
+ActionList1
+actSave
+actOpen 
+actAutoAssemble$
+Forcerechecksymbols1(
+Label5,
+Label380
+Smarteditaddresses14
+Pointerscanforthisaddress18
+Label57<
+Plugins1@
+Label59D
+UpdateFoundlisttimerH
+(Browsethismemoryregioninthedisassembler1L
+AutoAttachTimerP
+Button2T
+Button4X
+	LogoPanel\
+Logo`
+Panel14d
+btnSetSpeedhack2h
+editSH2l
+Label54p
+tbSpeedt
+lblSH0x
+lblSH20|
+cbSpeedhack
+	MainMenu1
+File1
+Process1
+Help1
+Edit3
+About1
+OpenProcess1
+Save1
+Load1
+	Settings1
+CreateProcess1
+New1
+ools1
+Helpindex1
+Plugins2
+actMemoryView
+Label61
+actOpenProcesslist
+MAINUNIT
+Invalid start address: %s
+mainunit.rsinvalidstartaddress
+Invalid stop address: %s
+mainunit.rsinvalidstopaddress
+This button will try to cancel the current scan. Click twice to force an exit
+mainunit.rsthisbuttonwilltrytocancelthecurrentscanclicktwicet
+Cancel
+mainunit.rscancel
+A window failed to hide
+mainunit.strwindowfailedtohide
+You haven't saved your last changes yet. Save Now?
+mainunit.strasktosave
+Text:
+mainunit.strscantextcaptiontotext
+Value:
+mainunit.strscantextcaptiontovalue
+Search for text
+mainunit.strsearchfortext
+Search for this array
+mainunit.strsearchforarray
+Value %
+mainunit.rsvalue
+between %
+mainunit.rsbetween
+at least xx%
+mainunit.rsatleastxx
+mainunit.rsand
+Error
+mainunit.strerror
+Error while opening this process
+mainunit.strerrorwhileopeningprocess
+Keep the current address list/code list?
+mainunit.strkeeplist
+Info about this table:
+mainunit.strinfoabouttable
+Physical Memory
+mainunit.strphysicalmemory
+Safer memory access
+mainunit.strsaferphysicalmemory
+There are one or more auto assembler entries or code changes enabled in this table. Do you want them disabled? (without executing the disable part)
+mainunit.rsthereareoneormoreautoassemblerentriesorcodechanges
+Load the associated table? (%s)
+mainunit.rsloadtheassociatedtable
+Group %s
+mainunit.rsgroup
+Groups
+mainunit.rsgroups
+What do you want the groupname to be?
+mainunit.rswhatdoyouwantthegroupnametobe
+Are you sure you want to delete this form?
+mainunit.rsareyousureyouwanttodeletethisform
+Rename file
+mainunit.rsrenamefile
+Give the new filename
+mainunit.rsgivethenewfilename
+Restore and show
+mainunit.rsrestoreandshow
+Edit
+mainunit.rsedit
+Delete
+mainunit.rsdelete
+Rename
+mainunit.rsrename
+Save to disk
+mainunit.rssavetodisk
+Are you sure you want to delete %s?
+mainunit.rsareyousureyouwanttodelete
+MyCheat
+mainunit.rscheatengine
+What will be the new name for this tab?
+mainunit.rswhatwillbethenewnameforthistab
+Scan
+mainunit.rsscan
+Scanresult
+mainunit.rsscanresult
+Save scan results
+mainunit.rssavescanresults
+What name do you want to give to these scanresults?
+mainunit.rswhatnamedoyouwanttogivetothesescanresults
+Click here to go to the MyCheat homepage
+mainunit.strclicktogohome
+Lua script: Cheat Table
+mainunit.rsluascriptcheattable
+The selected address is a pointer. Are you sure? (the base pointer will get the address)
+mainunit.strselectedaddressisapointer
+There are more pointers selected. Do you want to change them as well?
+mainunit.strmorepointers
+You have selected one or more pointers. Do you want to change them as well?
+mainunit.strmorepointers2
+This is not an valid value
+mainunit.strnotavalidvalue
+Comparing to first scan results
+mainunit.rscomparingtof
+Saved scan results
+mainunit.rssavedscanresults
+Select the saved scan result from the list below
+mainunit.rsselectthesavedscanresultfromthelistbelow
+Comparing to %s
+mainunit.rscomparingto
+mainunit.rshex
+Do you want to go to the MyCheat website?
+mainunit.rsdoyouwanttogotothecheatenginewebsite
+Are you sure you want to delete all addresses?
+mainunit.strdeleteall
+Set/Change hotkeys
+mainunit.rssetchangehotkeys
+Set hotkeys
+mainunit.rssethotkeys
+Show as decimal
+mainunit.rsshowasdecimal
+Show as binary
+mainunit.rsshowasbinary
+Show as hexadecimal
+mainunit.rsshowashexadecimal
+Remove selected addresses
+mainunit.rsremoveselectedaddresses
+Remove selected address
+mainunit.rsremoveselectedaddress
+This list is huge and deleting multiple items will require MC to traverse the whole list and can take a while. Are you sure?
+mainunit.rsthislistishuge
+Find out what accesses this pointer
+mainunit.rsfindoutwhataccessesthispointer
+Find what accesses the address pointed at by this pointer
+mainunit.rsfindwhataccessestheaddresspointedatbythispointer
+Find out what writes this pointer
+mainunit.rsfindoutwhatwritesthispointer
+Find what writes the address pointed at by this pointer
+mainunit.rsfindwhatwritestheaddresspointedatbythispointer
+Do you really want to go back to the results of the previous scan?
+mainunit.strconfirmundo
+will hide the foreground window
+mainunit.strhideforeground
+will hide all windows
+mainunit.strhideall
+will bring the foreground window back
+mainunit.strunhideforeground
+will bring all windows back
+mainunit.strunhideall
+brings MyCheat to front
+mainunit.rsbringscheatenginetofront
+Let's sing Happy Birthday for Brock today!
+mainunit.strhappybirthday
+And what are your good intentions for this year? ;-)
+mainunit.strnewyear
+Wow,I never imagined people would use MyCheat up to today
+mainunit.strfuture
+Your license to use MyCheat has expired. You can buy a license to use cheat engine for 1 month for $200, 6 months for only $1000 and for
